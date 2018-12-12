@@ -1,137 +1,19 @@
-<!DOCTYPE html>
-<!--  Last Published: Fri Sep 28 2018 13:19:55 GMT+0000 (UTC)  -->
-<html data-wf-page="5b61fa57f40d766db0e53b3a" data-wf-site="5b61fa57f40d761dfde53b39">
-<head>
-  <meta charset="utf-8">
-  <title>Software de Automação de Marketing e Inteligência em Vendas | LAHAR</title>
-  <meta content="Software de Automação de Marketing, Landing Pages, E-mail Marketing, Gestão de Contatos (CRM), Lead Tracking, Lead Scoring e muito mais." name="description">
-  <meta content="Software de Automação de Marketing e Inteligência em Vendas | LAHAR" property="og:title">
-  <meta content="Software de Automação de Marketing, Landing Pages, E-mail Marketing, Gestão de Contatos (CRM), Lead Tracking, Lead Scoring e muito mais." property="og:description">
-  <meta content="https://uploads-ssl.webflow.com/5b61fa57f40d761dfde53b39/5bad230e67eab4e37f2d224d_share.jpg" property="og:image">
-  <meta content="summary" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/components.css" rel="stylesheet" type="text/css">
-  <link href="css/lahar-v2.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto:100,300,regular,500,700,900"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/FAV.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/256.png" rel="apple-touch-icon">
-  <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58463748-1', 'auto');ga('send', 'pageview');</script>
-  <style type="text/css">
-@media (max-width: 1920px) and (min-width: 1450px) {
- .section-cta-woman {
- padding-top: 350px;
-}
-}
-@media screen and (min-width: 1200px) {
- .w-container {
- max-width: 1170px;
-}
-}
-.select {
-	-webkit-appearance: none!important;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	-ms-border-radius: 50px;
-	border-radius: 50px;
-}
-</style>
-</head>
-<body>
-  <div class="section-lapela w-clearfix"><a href="#" class="link-close w-inline-block" data-ix="hide-bar"><img src="images/delete.png" width="12"></a>
+<?php include_once './includes/header.php'; ?>
+
+  <div class="section-lapela w-clearfix"><a href="#" class="link-close w-inline-block" data-ix="hide-bar"><img src="assets/images/delete.png" width="12"></a>
     <div class="container-breaking-news w-container">
       <div class="lapela">
         <div>NEW!</div>
       </div>
       <div class="txt-dark-blue small">blog lahar: O que é um ERP e como ele pode ajudar o seu negócio?</div><a href="https://blog.lahar.com.br/vendas/o-que-e-um-erp/" target="_blank" class="button-lapela w-button">SAIBA MAIS</a></div>
   </div>
-  <div class="nav-off" data-ix="menu-hidden">
-    <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar-off home fixed w-nav">
-      <div class="container-navbar w-container"><a href="index.html" class="logo w-nav-brand"><img src="images/logo.png" width="135"></a>
-        <nav role="navigation" class="nav-menu-off w-clearfix w-nav-menu"><a href="funcionalidades-lahar.html" class="link-nav w-nav-link">FUNCIONALIDADES</a><a href="planos-e-precos.html" class="link-nav w-nav-link">PLANOS</a><a href="corporativo.html" class="link-nav w-nav-link">CORPORATIVO</a><a href="cases-de-marketing-digital.html" class="link-nav w-nav-link">HISTÓRIAS DE SUCESSO</a><a href="parceria.html" class="link-nav w-nav-link">PARCEIROS</a>
-          <div data-hover="1" data-delay="0" class="dropdown-padrao w-dropdown">
-            <div class="link-nav menu w-dropdown-toggle">
-              <div class="w-icon-dropdown-toggle"></div>
-              <div>MATERIAIS</div>
-            </div>
-            <nav class="ddl w-dropdown-list">
-              <div class="w-row">
-                <div class="w-col w-col-4">
-                  <div class="txtblocks-blue">Título 1</div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Ebook Automação de Marketing</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/ebook-links-patrocinados" target="_blank" class="link-light-blue dark">Ebook Links Patrocinados</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Checklist E-mail Marketing</a></div>
-                </div>
-                <div class="w-col w-col-4">
-                  <div class="spacer w-hidden-main w-hidden-medium w-hidden-small"></div>
-                  <div class="txtblocks-blue">Título 1</div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Ebook Automação de Marketing</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/ebook-links-patrocinados" target="_blank" class="link-light-blue dark">Ebook Links Patrocinados</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Checklist E-mail Marketing</a></div>
-                </div>
-                <div class="w-col w-col-4">
-                  <div class="spacer w-hidden-main w-hidden-medium w-hidden-small"></div>
-                  <div class="txtblocks-blue">Título 1</div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Ebook Automação de Marketing</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/ebook-links-patrocinados" target="_blank" class="link-light-blue dark">Ebook Links Patrocinados</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Checklist E-mail Marketing</a></div>
-                </div>
-              </div>
-            </nav>
-          </div><a href="https://blog.lahar.com.br/" target="_blank" class="link-nav w-nav-link">BLOG</a><a href="criar-conta.html" class="link-nav cta w-nav-link">experimente grátis</a>
-          <div class="flags"><a href="#" onclick="changeLanguage('')" class="flag w-inline-block"><img src="images/brasil.svg"></a><div class="divider-flags"></div><a href="#" onclick="changeLanguage('en')" class="flag w-inline-block"><img src="images/united-states.svg"></a><div class="divider-flags"></div><a href="#" onclick="changeLanguage('es')"  class="flag w-inline-block"><img src="images/spain.svg"></a></div>
-        </nav>
-        <div class="menu-color w-nav-button">
-          <div class="w-icon-nav-menu"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+  <?php include_once './includes/menu-flutuante.php'; ?>
+
   <div class="section-hero" data-ix="show-menu">
-    <div data-collapse="medium" data-animation="default" data-duration="800" class="navbar home w-nav">
-      <div class="container-navbar w-container"><a href="index.html" class="logo w-nav-brand"><img src="images/logo.png" width="135"></a>
-        <nav role="navigation" class="nav-menu-oficial w-clearfix w-nav-menu"><a href="funcionalidades-lahar.html" class="link-nav w-nav-link">FUNCIONALIDADES</a><a href="planos-e-precos.html" class="link-nav w-nav-link">PLANOS</a><a href="corporativo.html" class="link-nav w-nav-link">CORPORATIVO</a><a href="cases-de-marketing-digital.html" class="link-nav w-nav-link">HISTÓRIAS DE SUCESSO</a>
-          <div data-hover="1" data-delay="0" class="dropdown-padrao w-dropdown">
-            <div class="link-nav menu w-dropdown-toggle">
-              <div class="w-icon-dropdown-toggle"></div>
-              <div>MATERIAIS</div>
-            </div>
-            <nav class="ddl w-dropdown-list">
-              <div class="w-row">
-                <div class="w-col w-col-4">
-                  <div class="txtblocks-blue">Título 1</div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Ebook Automação de Marketing</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/ebook-links-patrocinados" target="_blank" class="link-light-blue dark">Ebook Links Patrocinados</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Checklist E-mail Marketing</a></div>
-                </div>
-                <div class="w-col w-col-4">
-                  <div class="spacer w-hidden-main w-hidden-medium w-hidden-small"></div>
-                  <div class="txtblocks-blue">Título 1</div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Ebook Automação de Marketing</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/ebook-links-patrocinados" target="_blank" class="link-light-blue dark">Ebook Links Patrocinados</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Checklist E-mail Marketing</a></div>
-                </div>
-                <div class="w-col w-col-4">
-                  <div class="spacer w-hidden-main w-hidden-medium w-hidden-small"></div>
-                  <div class="txtblocks-blue">Título 1</div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Ebook Automação de Marketing</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/ebook-links-patrocinados" target="_blank" class="link-light-blue dark">Ebook Links Patrocinados</a></div>
-                  <div class="txtblocks-blue medium"><a href="http://marketing.lahar.com.br/checklist-email-marketing" target="_blank" class="link-light-blue dark">Checklist E-mail Marketing</a></div>
-                </div>
-              </div>
-            </nav>
-          </div><a href="parceria.html" class="link-nav w-nav-link">PARCEIROS</a><a href="https://blog.lahar.com.br/" target="_blank" class="link-nav w-nav-link">BLOG</a><a href="criar-conta.html" class="link-nav cta w-nav-link">experimente grátis</a>
-          <div class="flags"><a href="#"  onclick="changeLanguage('en')" class="flag w-inline-block"><img src="images/united-states.svg"></a> <div class="divider-flags"></div><a href="#"  onclick="changeLanguage('')" class="flag w-inline-block"><img src="images/brasil.svg"></a>
-            <div class="divider-flags"></div><a href="#" onclick="changeLanguage('es')"  class="flag w-inline-block"><img src="images/spain.svg"></a></div>
-        </nav>
-        <div class="menu-color w-nav-button">
-          <div class="w-icon-nav-menu"></div>
-        </div>
-      </div>
-    </div>
+
+    <?php include_once './includes/menu.php'; ?>
+    
     <div class="w-container">
       <div id="experimente-home" class="row-hero w-row">
         <div class="column-pad-right w-col w-col-6">
@@ -153,7 +35,7 @@
         </div>
         <div class="w-col w-col-6">
           <div style="padding-top:56.17021276595745%" id="w-node-5927a39a55c4" class="video w-hidden-main w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F4I5x1VXhoFY%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4I5x1VXhoFY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F4I5x1VXhoFY%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
-          <div data-poster-url="videos/videoplayback-poster-00001.jpg" data-video-urls="videos/videoplayback-transcode.webm,videos/videoplayback-transcode.mp4" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video w-hidden-medium w-hidden-small w-hidden-tiny w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/videoplayback-poster-00001.jpg&quot;)" muted="" data-wf-ignore="true"><source src="videos/videoplayback-transcode.webm" data-wf-ignore="true"><source src="videos/videoplayback-transcode.mp4" data-wf-ignore="true"></video><a href="#" class="w-inline-block w-lightbox" data-ix="show-on-scroll"><img src="images/002-youtube.svg" height="60"><script type="application/json" class="w-json">{
+          <div data-poster-url="assets/videos/videoplayback-poster-00001.jpg" data-video-urls="assets/videos/videoplayback-transcode.webm,videos/videoplayback-transcode.mp4" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video w-hidden-medium w-hidden-small w-hidden-tiny w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/videoplayback-poster-00001.jpg&quot;)" muted="" data-wf-ignore="true"><source src="assets/videos/videoplayback-transcode.webm" data-wf-ignore="true"><source src="assets/videos/videoplayback-transcode.mp4" data-wf-ignore="true"></video><a href="#" class="w-inline-block w-lightbox" data-ix="show-on-scroll"><img src="assets/images/002-youtube.svg" height="60"><script type="application/json" class="w-json">{
   "items": [
     {
       "type": "video",
@@ -172,10 +54,10 @@
   </div>
   <div class="section-namidia">
     <div class="container-na-midia w-container" data-ix="show-on-scroll">
-      <div class="txtblocks-blue">LAHAR na mídia:</div><a href="https://www.terra.com.br/noticias/dino/investimento-em-marketing-digital-tem-previsao-de-crescimento-de-12-ao-ano-ate-2021,83b72b9740f639094370ee4f6e468640x6hlt55r.html" class="marcas off midia w-inline-block" target="_blank"><img src="images/terra.png"></a>
-        <a href="https://www.mundodomarketing.com.br/noticias-corporativas/conteudo/185330/investimento-em-marketing-digital-tem-previsao-de-crescimento-de-12-ao-ano-ate-2021" class="marcas off midia w-inline-block" target="_blank"><img src="images/mundomkt.png"></a>
-        <a href="https://projetodraft.com/lahar-investe-em-marketing-digital-automatizado/" class="marcas off midia w-inline-block" target="_blank"><img src="images/draft.png"></a>
-        <a href="https://blog.lahar.com.br/lahar/lahar-vence-como-melhor-ferramenta-de-marketing-digital-em-2017-pela-abcomm/" class="marcas off midia w-inline-block" target="_blank"><img src="images/abcomm.png"></a></div>
+      <div class="txtblocks-blue">LAHAR na mídia:</div><a href="https://www.terra.com.br/noticias/dino/investimento-em-marketing-digital-tem-previsao-de-crescimento-de-12-ao-ano-ate-2021,83b72b9740f639094370ee4f6e468640x6hlt55r.html" class="marcas off midia w-inline-block" target="_blank"><img src="assets/images/terra.png"></a>
+        <a href="https://www.mundodomarketing.com.br/noticias-corporativas/conteudo/185330/investimento-em-marketing-digital-tem-previsao-de-crescimento-de-12-ao-ano-ate-2021" class="marcas off midia w-inline-block" target="_blank"><img src="assets/images/mundomkt.png"></a>
+        <a href="https://projetodraft.com/lahar-investe-em-marketing-digital-automatizado/" class="marcas off midia w-inline-block" target="_blank"><img src="assets/images/draft.png"></a>
+        <a href="https://blog.lahar.com.br/lahar/lahar-vence-como-melhor-ferramenta-de-marketing-digital-em-2017-pela-abcomm/" class="marcas off midia w-inline-block" target="_blank"><img src="assets/images/abcomm.png"></a></div>
   </div>
   <div class="section-numeros">
     <div class="container-numbers w-container">
@@ -250,20 +132,20 @@
         <h1 class="h1 medium inverted">Como a LAHAR pode te ajudar:</h1>
       </div>
     </div>
-    <div class="spacer _100 w-hidden-tiny"></div><a href="#" class="w-hidden-main w-inline-block w-lightbox"><img src="images/LAHAR_-_Beneficios_versao_final.png" srcset="images/LAHAR_-_Beneficios_versao_final-p-800.png 800w, images/LAHAR_-_Beneficios_versao_final-p-1080.png 1080w, images/LAHAR_-_Beneficios_versao_final-p-1600.png 1600w, images/LAHAR_-_Beneficios_versao_final.png 1920w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw"><script type="application/json" class="w-json">{
+    <div class="spacer _100 w-hidden-tiny"></div><a href="#" class="w-hidden-main w-inline-block w-lightbox"><img src="assets/images/LAHAR_-_Beneficios_versao_final.png" srcset="assets/images/LAHAR_-_Beneficios_versao_final-p-800.png 800w, assets/images/LAHAR_-_Beneficios_versao_final-p-1080.png 1080w, assets/images/LAHAR_-_Beneficios_versao_final-p-1600.png 1600w, assets/images/LAHAR_-_Beneficios_versao_final.png 1920w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw"><script type="application/json" class="w-json">{
   "items": [
     {
       "width": 1920,
       "height": 1568,
       "fileName": "5b68731af109cfbbc8d9d2fe_LAHAR_-_Beneficios_versao_final.png",
       "origFileName": "LAHAR_-_Beneficios_versao_final.png",
-      "url": "images/LAHAR_-_Beneficios_versao_final.png",
+      "url": "assets/images/LAHAR_-_Beneficios_versao_final.png",
       "_id": "5b68731af109cfbbc8d9d2fe",
       "type": "image",
       "fileSize": 466500
     }
   ]
-}</script></a><img src="images/LAHAR_-_Beneficios_versao_final.png" srcset="images/LAHAR_-_Beneficios_versao_final-p-800.png 800w, images/LAHAR_-_Beneficios_versao_final-p-1080.png 1080w, images/LAHAR_-_Beneficios_versao_final-p-1600.png 1600w, images/LAHAR_-_Beneficios_versao_final.png 1920w" sizes="(max-width: 991px) 100vw, (max-width: 1959px) 98vw, 1920px" class="infografico w-hidden-medium w-hidden-small w-hidden-tiny" data-ix="show-on-scroll"></div>
+}</script></a><img src="assets/images/LAHAR_-_Beneficios_versao_final.png" srcset="assets/images/LAHAR_-_Beneficios_versao_final-p-800.png 800w, assets/images/LAHAR_-_Beneficios_versao_final-p-1080.png 1080w, assets/images/LAHAR_-_Beneficios_versao_final-p-1600.png 1600w, assets/images/LAHAR_-_Beneficios_versao_final.png 1920w" sizes="(max-width: 991px) 100vw, (max-width: 1959px) 98vw, 1920px" class="infografico w-hidden-medium w-hidden-small w-hidden-tiny" data-ix="show-on-scroll"></div>
   <div class="section-branca">
     <div class="container-center tab w-container">
       <div class="titulos-padding" data-ix="show-on-scroll">
@@ -272,59 +154,59 @@
       </div>
       <div class="spacer _50"></div>
       <div class="tabs w-clearfix">
-        <div class="tabs-container w-clearfix"><a href="#" onclick="arrowBackwards()"  class="arrow-left w-inline-block"><img src="images/angle-pointing-to-left.svg"></a>
+        <div class="tabs-container w-clearfix"><a href="#" onclick="arrowBackwards()"  class="arrow-left w-inline-block"><img src="assets/images/angle-pointing-to-left.svg"></a>
           <div data-duration-in="300" data-duration-out="100" class="w-tabs" data-ix="show-on-scroll">
             <div class="tabs-menu w-tab-menu">
               <a data-w-tab="painel" class="tab-link w-inline-block w-tab-link w--current">
-                <div class="circle small"><img src="images/001-analytics.svg"></div>
+                <div class="circle small"><img src="assets/images/001-analytics.svg"></div>
                 <div class="txtblocks-blue smallest">Painel de<br>Palavras-chave</div>
               </a>
               <a data-w-tab="midias" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/005-facebook.svg"></div>
+                <div class="circle small"><img src="assets/images/005-facebook.svg"></div>
                 <div class="txtblocks-blue smallest">Mídias<br>Sociais</div>
               </a>
               <a data-w-tab="lp" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/007-landing-page.svg"></div>
+                <div class="circle small"><img src="assets/images/007-landing-page.svg"></div>
                 <div class="txtblocks-blue smallest">Landing<br>Pages</div>
               </a>
               <a data-w-tab="form" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/006-website.svg"></div>
+                <div class="circle small"><img src="assets/images/006-website.svg"></div>
                 <div class="txtblocks-blue smallest">Formulários<br>Externos</div>
               </a>
               <a data-w-tab="popup" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/001-windows.svg"></div>
+                <div class="circle small"><img src="assets/images/001-windows.svg"></div>
                 <div class="txtblocks-blue smallest">Popups</div>
               </a>
               <a data-w-tab="lead-track" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/002-track.svg"></div>
+                <div class="circle small"><img src="assets/images/002-track.svg"></div>
                 <div class="txtblocks-blue smallest">Lead Tracking</div>
               </a>
               <a data-w-tab="emkt" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/004-gmail.svg"></div>
+                <div class="circle small"><img src="assets/images/004-gmail.svg"></div>
                 <div class="txtblocks-blue smallest">Email <br>Marketing</div>
               </a>
               <a data-w-tab="sms" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/003-message.svg"></div>
+                <div class="circle small"><img src="assets/images/003-message.svg"></div>
                 <div class="txtblocks-blue smallest">SMS Marketing</div>
               </a>
               <a data-w-tab="push" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/003-phone-alert.svg"></div>
+                <div class="circle small"><img src="assets/images/003-phone-alert.svg"></div>
                 <div class="txtblocks-blue smallest">Push Message</div>
               </a>
               <a data-w-tab="seg" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/002-user.svg"></div>
+                <div class="circle small"><img src="assets/images/002-user.svg"></div>
                 <div class="txtblocks-blue smallest">Segmentação <br>de Contatos</div>
               </a>
               <a data-w-tab="base" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/005-database.svg"></div>
+                <div class="circle small"><img src="assets/images/005-database.svg"></div>
                 <div class="txtblocks-blue smallest">Base de Contatos (CRM)</div>
               </a>
               <a data-w-tab="lead scoring" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/004-scoreboard.svg"></div>
+                <div class="circle small"><img src="assets/images/004-scoreboard.svg"></div>
                 <div class="txtblocks-blue smallest">Lead Scoring</div>
               </a>
               <a data-w-tab="automacao" class="tab-link w-inline-block w-tab-link">
-                <div class="circle small"><img src="images/008-machinery.svg"></div>
+                <div class="circle small"><img src="assets/images/008-machinery.svg"></div>
                 <div class="txtblocks-blue smallest">Automação de Marketing</div>
               </a>
             </div>
@@ -340,7 +222,7 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Atracao---Painel-de-Palavras-chave.png" srcset="images/Atracao---Painel-de-Palavras-chave-p-500.png 500w, images/Atracao---Painel-de-Palavras-chave.png 1014w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Atracao---Painel-de-Palavras-chave.png" srcset="assets/images/Atracao---Painel-de-Palavras-chave-p-500.png 500w, assets/images/Atracao---Painel-de-Palavras-chave.png 1014w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -365,10 +247,10 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Atracao---Midias-sociais-1.png" srcset="images/Atracao---Midias-sociais-1-p-500.png 500w, images/Atracao---Midias-sociais-1.png 1150w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Atracao---Midias-sociais-1.png" srcset="assets/images/Atracao---Midias-sociais-1-p-500.png 500w, assets/images/Atracao---Midias-sociais-1.png 1150w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Atracao---Painel-de-Palavras-chave.png" srcset="images/Atracao---Painel-de-Palavras-chave-p-500.png 500w, images/Atracao---Painel-de-Palavras-chave.png 1014w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Atracao---Painel-de-Palavras-chave.png" srcset="assets/images/Atracao---Painel-de-Palavras-chave-p-500.png 500w, assets/images/Atracao---Painel-de-Palavras-chave.png 1014w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -393,28 +275,28 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Untitled-1.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Untitled-1.gif"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Landing-pages-2.jpg" srcset="images/Conversao---Landing-pages-2-p-800.jpeg 800w, images/Conversao---Landing-pages-2-p-1080.jpeg 1080w, images/Conversao---Landing-pages-2.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Landing-pages-2.jpg" srcset="assets/images/Conversao---Landing-pages-2-p-800.jpeg 800w, assets/images/Conversao---Landing-pages-2-p-1080.jpeg 1080w, assets/images/Conversao---Landing-pages-2.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Landing-pages-3.jpg" srcset="images/Conversao---Landing-pages-3-p-500.jpeg 500w, images/Conversao---Landing-pages-3-p-800.jpeg 800w, images/Conversao---Landing-pages-3-p-1080.jpeg 1080w, images/Conversao---Landing-pages-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Landing-pages-3.jpg" srcset="assets/images/Conversao---Landing-pages-3-p-500.jpeg 500w, assets/images/Conversao---Landing-pages-3-p-800.jpeg 800w, assets/images/Conversao---Landing-pages-3-p-1080.jpeg 1080w, assets/images/Conversao---Landing-pages-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Landing-pages-4.jpg" srcset="images/Conversao---Landing-pages-4-p-500.jpeg 500w, images/Conversao---Landing-pages-4-p-800.jpeg 800w, images/Conversao---Landing-pages-4-p-1080.jpeg 1080w, images/Conversao---Landing-pages-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Landing-pages-4.jpg" srcset="assets/images/Conversao---Landing-pages-4-p-500.jpeg 500w, assets/images/Conversao---Landing-pages-4-p-800.jpeg 800w, assets/images/Conversao---Landing-pages-4-p-1080.jpeg 1080w, assets/images/Conversao---Landing-pages-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Landing-pages-5.jpg" srcset="images/Conversao---Landing-pages-5-p-800.jpeg 800w, images/Conversao---Landing-pages-5-p-1080.jpeg 1080w, images/Conversao---Landing-pages-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Landing-pages-5.jpg" srcset="assets/images/Conversao---Landing-pages-5-p-800.jpeg 800w, assets/images/Conversao---Landing-pages-5-p-1080.jpeg 1080w, assets/images/Conversao---Landing-pages-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Landing-pages-6.jpg" srcset="images/Conversao---Landing-pages-6-p-500.jpeg 500w, images/Conversao---Landing-pages-6-p-800.jpeg 800w, images/Conversao---Landing-pages-6-p-1080.jpeg 1080w, images/Conversao---Landing-pages-6.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Landing-pages-6.jpg" srcset="assets/images/Conversao---Landing-pages-6-p-500.jpeg 500w, assets/images/Conversao---Landing-pages-6-p-800.jpeg 800w, assets/images/Conversao---Landing-pages-6-p-1080.jpeg 1080w, assets/images/Conversao---Landing-pages-6.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/r.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/r.gif"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/f2.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/f2.gif"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -439,22 +321,22 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Formularios-externos-1.jpg" srcset="images/Conversao---Formularios-externos-1-p-500.jpeg 500w, images/Conversao---Formularios-externos-1-p-800.jpeg 800w, images/Conversao---Formularios-externos-1-p-1080.jpeg 1080w, images/Conversao---Formularios-externos-1.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Formularios-externos-1.jpg" srcset="assets/images/Conversao---Formularios-externos-1-p-500.jpeg 500w, assets/images/Conversao---Formularios-externos-1-p-800.jpeg 800w, assets/images/Conversao---Formularios-externos-1-p-1080.jpeg 1080w, assets/images/Conversao---Formularios-externos-1.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Formularios-externos-2.jpg" srcset="images/Conversao---Formularios-externos-2-p-500.jpeg 500w, images/Conversao---Formularios-externos-2-p-800.jpeg 800w, images/Conversao---Formularios-externos-2-p-1080.jpeg 1080w, images/Conversao---Formularios-externos-2.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Formularios-externos-2.jpg" srcset="assets/images/Conversao---Formularios-externos-2-p-500.jpeg 500w, assets/images/Conversao---Formularios-externos-2-p-800.jpeg 800w, assets/images/Conversao---Formularios-externos-2-p-1080.jpeg 1080w, assets/images/Conversao---Formularios-externos-2.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Formularios-externos-3.jpg" srcset="images/Conversao---Formularios-externos-3-p-500.jpeg 500w, images/Conversao---Formularios-externos-3-p-800.jpeg 800w, images/Conversao---Formularios-externos-3-p-1080.jpeg 1080w, images/Conversao---Formularios-externos-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Formularios-externos-3.jpg" srcset="assets/images/Conversao---Formularios-externos-3-p-500.jpeg 500w, assets/images/Conversao---Formularios-externos-3-p-800.jpeg 800w, assets/images/Conversao---Formularios-externos-3-p-1080.jpeg 1080w, assets/images/Conversao---Formularios-externos-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Formularios-externos-4.jpg" srcset="images/Conversao---Formularios-externos-4-p-500.jpeg 500w, images/Conversao---Formularios-externos-4-p-800.jpeg 800w, images/Conversao---Formularios-externos-4-p-1080.jpeg 1080w, images/Conversao---Formularios-externos-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Formularios-externos-4.jpg" srcset="assets/images/Conversao---Formularios-externos-4-p-500.jpeg 500w, assets/images/Conversao---Formularios-externos-4-p-800.jpeg 800w, assets/images/Conversao---Formularios-externos-4-p-1080.jpeg 1080w, assets/images/Conversao---Formularios-externos-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Conversao---Formularios-externos-5.jpg" srcset="images/Conversao---Formularios-externos-5-p-500.jpeg 500w, images/Conversao---Formularios-externos-5-p-800.jpeg 800w, images/Conversao---Formularios-externos-5-p-1080.jpeg 1080w, images/Conversao---Formularios-externos-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Conversao---Formularios-externos-5.jpg" srcset="assets/images/Conversao---Formularios-externos-5-p-500.jpeg 500w, assets/images/Conversao---Formularios-externos-5-p-800.jpeg 800w, assets/images/Conversao---Formularios-externos-5-p-1080.jpeg 1080w, assets/images/Conversao---Formularios-externos-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/lp.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/lp.gif"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -479,16 +361,16 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-1.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-1.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-2.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-2.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-3.png" srcset="images/Venda---Automacao-de-marketing-3-p-500.png 500w, images/Venda---Automacao-de-marketing-3.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-3.png" srcset="assets/images/Venda---Automacao-de-marketing-3-p-500.png 500w, assets/images/Venda---Automacao-de-marketing-3.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/aut.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/aut.gif"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -513,16 +395,16 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/c.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/c.gif"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-2.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-2.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-3.png" srcset="images/Venda---Automacao-de-marketing-3-p-500.png 500w, images/Venda---Automacao-de-marketing-3.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-3.png" srcset="assets/images/Venda---Automacao-de-marketing-3-p-500.png 500w, assets/images/Venda---Automacao-de-marketing-3.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/aut.gif"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/aut.gif"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -547,25 +429,25 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-1.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-1.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-2.jpg" srcset="images/Relacionamento---Email-marketing-2-p-500.jpeg 500w, images/Relacionamento---Email-marketing-2-p-800.jpeg 800w, images/Relacionamento---Email-marketing-2-p-1080.jpeg 1080w, images/Relacionamento---Email-marketing-2.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-2.jpg" srcset="assets/images/Relacionamento---Email-marketing-2-p-500.jpeg 500w, assets/images/Relacionamento---Email-marketing-2-p-800.jpeg 800w, assets/images/Relacionamento---Email-marketing-2-p-1080.jpeg 1080w, assets/images/Relacionamento---Email-marketing-2.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-3.jpg" srcset="images/Relacionamento---Email-marketing-3-p-800.jpeg 800w, images/Relacionamento---Email-marketing-3-p-1080.jpeg 1080w, images/Relacionamento---Email-marketing-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-3.jpg" srcset="assets/images/Relacionamento---Email-marketing-3-p-800.jpeg 800w, assets/images/Relacionamento---Email-marketing-3-p-1080.jpeg 1080w, assets/images/Relacionamento---Email-marketing-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-4.jpg" srcset="images/Relacionamento---Email-marketing-4-p-500.jpeg 500w, images/Relacionamento---Email-marketing-4-p-800.jpeg 800w, images/Relacionamento---Email-marketing-4-p-1080.jpeg 1080w, images/Relacionamento---Email-marketing-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-4.jpg" srcset="assets/images/Relacionamento---Email-marketing-4-p-500.jpeg 500w, assets/images/Relacionamento---Email-marketing-4-p-800.jpeg 800w, assets/images/Relacionamento---Email-marketing-4-p-1080.jpeg 1080w, assets/images/Relacionamento---Email-marketing-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-5.jpg" srcset="images/Relacionamento---Email-marketing-5-p-800.jpeg 800w, images/Relacionamento---Email-marketing-5-p-1080.jpeg 1080w, images/Relacionamento---Email-marketing-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-5.jpg" srcset="assets/images/Relacionamento---Email-marketing-5-p-800.jpeg 800w, assets/images/Relacionamento---Email-marketing-5-p-1080.jpeg 1080w, assets/images/Relacionamento---Email-marketing-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-6.jpg" srcset="images/Relacionamento---Email-marketing-6-p-500.jpeg 500w, images/Relacionamento---Email-marketing-6-p-800.jpeg 800w, images/Relacionamento---Email-marketing-6-p-1080.jpeg 1080w, images/Relacionamento---Email-marketing-6.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-6.jpg" srcset="assets/images/Relacionamento---Email-marketing-6-p-500.jpeg 500w, assets/images/Relacionamento---Email-marketing-6-p-800.jpeg 800w, assets/images/Relacionamento---Email-marketing-6-p-1080.jpeg 1080w, assets/images/Relacionamento---Email-marketing-6.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Email-marketing-7.png" srcset="images/Relacionamento---Email-marketing-7-p-500.png 500w, images/Relacionamento---Email-marketing-7.png 1018w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Email-marketing-7.png" srcset="assets/images/Relacionamento---Email-marketing-7-p-500.png 500w, assets/images/Relacionamento---Email-marketing-7.png 1018w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -590,13 +472,13 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---SMS-marketing-1.jpg" srcset="images/Relacionamento---SMS-marketing-1-p-500.jpeg 500w, images/Relacionamento---SMS-marketing-1-p-1080.jpeg 1080w, images/Relacionamento---SMS-marketing-1.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---SMS-marketing-1.jpg" srcset="assets/images/Relacionamento---SMS-marketing-1-p-500.jpeg 500w, assets/images/Relacionamento---SMS-marketing-1-p-1080.jpeg 1080w, assets/images/Relacionamento---SMS-marketing-1.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---SMS-marketing-2.png" srcset="images/Relacionamento---SMS-marketing-2-p-500.png 500w, images/Relacionamento---SMS-marketing-2.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---SMS-marketing-2.png" srcset="assets/images/Relacionamento---SMS-marketing-2-p-500.png 500w, assets/images/Relacionamento---SMS-marketing-2.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Push-message.jpg" srcset="images/Relacionamento---Push-message-p-500.jpeg 500w, images/Relacionamento---Push-message-p-1080.jpeg 1080w, images/Relacionamento---Push-message.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Push-message.jpg" srcset="assets/images/Relacionamento---Push-message-p-500.jpeg 500w, assets/images/Relacionamento---Push-message-p-1080.jpeg 1080w, assets/images/Relacionamento---Push-message.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -621,7 +503,7 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Push-message.jpg" srcset="images/Relacionamento---Push-message-p-500.jpeg 500w, images/Relacionamento---Push-message-p-1080.jpeg 1080w, images/Relacionamento---Push-message.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Push-message.jpg" srcset="assets/images/Relacionamento---Push-message-p-500.jpeg 500w, assets/images/Relacionamento---Push-message-p-1080.jpeg 1080w, assets/images/Relacionamento---Push-message.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -646,19 +528,19 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Segmentacao-de-contatos-1.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Segmentacao-de-contatos-1.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Segmentacao-de-contatos-2.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Segmentacao-de-contatos-2.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Segmentacao-de-contatos-3.jpg" srcset="images/Relacionamento---Segmentacao-de-contatos-3-p-500.jpeg 500w, images/Relacionamento---Segmentacao-de-contatos-3-p-800.jpeg 800w, images/Relacionamento---Segmentacao-de-contatos-3-p-1080.jpeg 1080w, images/Relacionamento---Segmentacao-de-contatos-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Segmentacao-de-contatos-3.jpg" srcset="assets/images/Relacionamento---Segmentacao-de-contatos-3-p-500.jpeg 500w, assets/images/Relacionamento---Segmentacao-de-contatos-3-p-800.jpeg 800w, assets/images/Relacionamento---Segmentacao-de-contatos-3-p-1080.jpeg 1080w, assets/images/Relacionamento---Segmentacao-de-contatos-3.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Segmentacao-de-contatos-4.jpg" srcset="images/Relacionamento---Segmentacao-de-contatos-4-p-500.jpeg 500w, images/Relacionamento---Segmentacao-de-contatos-4-p-800.jpeg 800w, images/Relacionamento---Segmentacao-de-contatos-4-p-1080.jpeg 1080w, images/Relacionamento---Segmentacao-de-contatos-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Segmentacao-de-contatos-4.jpg" srcset="assets/images/Relacionamento---Segmentacao-de-contatos-4-p-500.jpeg 500w, assets/images/Relacionamento---Segmentacao-de-contatos-4-p-800.jpeg 800w, assets/images/Relacionamento---Segmentacao-de-contatos-4-p-1080.jpeg 1080w, assets/images/Relacionamento---Segmentacao-de-contatos-4.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Segmentacao-de-contatos-5.jpg" srcset="images/Relacionamento---Segmentacao-de-contatos-5-p-500.jpeg 500w, images/Relacionamento---Segmentacao-de-contatos-5-p-800.jpeg 800w, images/Relacionamento---Segmentacao-de-contatos-5-p-1080.jpeg 1080w, images/Relacionamento---Segmentacao-de-contatos-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Segmentacao-de-contatos-5.jpg" srcset="assets/images/Relacionamento---Segmentacao-de-contatos-5-p-500.jpeg 500w, assets/images/Relacionamento---Segmentacao-de-contatos-5-p-800.jpeg 800w, assets/images/Relacionamento---Segmentacao-de-contatos-5-p-1080.jpeg 1080w, assets/images/Relacionamento---Segmentacao-de-contatos-5.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -683,10 +565,10 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Relacionamento---Base-de-Contatos-CRM.png" srcset="images/Relacionamento---Base-de-Contatos-CRM-p-500.png 500w, images/Relacionamento---Base-de-Contatos-CRM.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Relacionamento---Base-de-Contatos-CRM.png" srcset="assets/images/Relacionamento---Base-de-Contatos-CRM-p-500.png 500w, assets/images/Relacionamento---Base-de-Contatos-CRM.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades" style="height: 360px;"><img src="images/crmteladois.jpg"></div>
+                          <div class="divs-funcionalidades" style="height: 360px;"><img src="assets/images/crmteladois.jpg"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -711,7 +593,7 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Lead-scoring-1.jpg" srcset="images/Venda---Lead-scoring-1-p-500.jpeg 500w, images/Venda---Lead-scoring-1-p-1080.jpeg 1080w, images/Venda---Lead-scoring-1.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Lead-scoring-1.jpg" srcset="assets/images/Venda---Lead-scoring-1-p-500.jpeg 500w, assets/images/Venda---Lead-scoring-1-p-1080.jpeg 1080w, assets/images/Venda---Lead-scoring-1.jpg 1440w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -736,16 +618,16 @@
                     <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
                       <div class="w-slider-mask">
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-1.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-1.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-2.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-2.png"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/Venda---Automacao-de-marketing-3.png" srcset="images/Venda---Automacao-de-marketing-3-p-500.png 500w, images/Venda---Automacao-de-marketing-3.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/Venda---Automacao-de-marketing-3.png" srcset="assets/images/Venda---Automacao-de-marketing-3-p-500.png 500w, assets/images/Venda---Automacao-de-marketing-3.png 1020w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, (max-width: 991px) 399.34375px, 524px"></div>
                         </div>
                         <div class="w-clearfix w-slide">
-                          <div class="divs-funcionalidades"><img src="images/venda.png"></div>
+                          <div class="divs-funcionalidades"><img src="assets/images/venda.png"></div>
                         </div>
                       </div>
                       <div class="left-arrow w-slider-arrow-left">
@@ -761,7 +643,7 @@
               </div>
             </div>
           </div>
-        </div><a href="#" onclick="arrowFoward()" class="arrow-right w-inline-block"><img src="images/right-arrow.svg"></a></div>
+        </div><a href="#" onclick="arrowFoward()" class="arrow-right w-inline-block"><img src="assets/images/right-arrow.svg"></a></div>
     </div>
   </div>
   <div class="section-planos-precos">
@@ -806,10 +688,10 @@
               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-basic" class="_58">229</span><span class="mes">/mês</span></div>
               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado anualmente<br></span>equivalente a R$<span id="equivalentPrice-month-basic">3.490,00</span>/ano</div>
               <div class="spacer _30"></div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">5 usuários</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
               </div>
             </div><a href="assinar.html" class="link-nav cta _100percent w-button">ASSINAR AGORA</a></div>
@@ -822,19 +704,19 @@
               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-professional" class="_58">4.999,00</span><span class="mes">/mês</span></div>
               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado mensalmente<br></span>equivalente a R$<span id="equivalentPrice-month-professional">3.490,00</span>/ano</div>
               <div class="spacer _30"></div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">10 usuários</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Automação de Marketing</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">SMS Marketing</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Lead Tracking</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
               </div>
             </div><a href="assinar.html" class="link-nav cta _100percent w-button">ASSINAR AGORA</a></div>
@@ -846,22 +728,22 @@
               <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-enterprise" class="_58">549</span><span class="mes">/mês</span></div>
               <div style="display:none;" class="txtblock-gray monthEquivalent center"><span class="bolder">Cobrado mensalmente<br></span>equivalente a R$<span id="equivalentPrice-month-enterprise">3.490,00</span>/ano</div>
               <div class="spacer _30"></div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">15 usuários</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Automação de Marketing</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">SMS Marketing</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Lead Tracking</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Lead Scoring</div>
               </div>
-              <div class="div-line-planos w-clearfix"><img src="images/checked.svg" width="15" class="check-green verde">
+              <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
                 <div class="txtblock-gray">Suporte via Email / Chat / Ticket</div>
               </div>
             </div><a href="assinar.html" class="link-nav cta _100percent w-button">ASSINAR AGORA</a></div>
@@ -888,43 +770,43 @@
         <div class="mask w-slider-mask">
           <div class="slide-testimonial w-slide">
             <div class="txt-20">“Estava em busca de um software de automação de marketing para conseguir concentrar todas as ações dos nossos clientes em um lugar só, foi quando eu conheci a LAHAR. Tive um excelente atendimento desde o começo, e o que mais me chamou a atenção foi o pós vendas com a preocupação em saber as minhas experiências e o que pode ser melhorado para eu ter um atendimento cada vez melhor. Recomendo!”</div>
-            <div class="spacer _50"></div><img src="images/fotoRafael.png" srcset="images/fotoRafael-p-500.png 500w, images/fotoRafael.png 816w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoRafael.png" srcset="assets/images/fotoRafael-p-500.png 500w, assets/images/fotoRafael.png 816w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
             <div class="title-testimonial">Rafael Alves</div>
             <div class="txt-14 testimonial">Publique-se</div>
           </div>
           <div class="slide-testimonial w-slide">
             <div class="txt-20">“A LAHAR é uma ferramenta de automação 100% útil em uma estratégia de Inbound Marketing, com páginas de captura, automação de emails, gestão de contatos e muito mais. Com ótimo custo benefício, ajuda muito na hora de interligar os departamentos de marketing e vendas de uma empresa. Recomendo.”</div>
-            <div class="spacer _50"></div><img src="images/fotoKim.png" srcset="images/fotoKim-p-500.png 500w, images/fotoKim.png 762w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoKim.png" srcset="assets/images/fotoKim-p-500.png 500w, assets/images/fotoKim.png 762w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
             <div class="title-testimonial">Kim Kopycki</div>
             <div class="txt-14 testimonial">Lowe</div>
           </div>
           <div class="slide-testimonial w-slide">
             <div class="txt-20">“Hoje temos tudo automatizado em nosso site, todas as áreas de conversão são integrados na plataforma. Com a LAHAR, intensificamos a nossa atuação em marketing digital. A plataforma nos garante gestão e mensuração dos resultados e visão dos processos de marketing digital de ponta a ponta.”</div>
-            <div class="spacer _50"></div><img src="images/fotoMarina.png" srcset="images/fotoMarina-p-500.png 500w, images/fotoMarina.png 762w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoMarina.png" srcset="assets/images/fotoMarina-p-500.png 500w, assets/images/fotoMarina.png 762w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
             <div class="title-testimonial">Marina Oliveira</div>
             <div class="txt-14 testimonial">Lecom</div>
           </div>
           <div class="slide-testimonial w-slide">
             <div class="txt-20">“Realizamos webinars em uma média de 3 vezes por semana, o que leva a um processo constante da utilização do e-mail marketing com o objetivo de divulgar esses eventos. Com o sistema de automação de marketing da LAHAR, conseguimos aumentar em muito o número de pessoas participando de webinars, o que levou a um maior engajamento de nossos leads.”</div>
-            <div class="spacer _50"></div><img src="images/fotoMocelim.png" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoMocelim.png" class="foto-author">
             <div class="title-testimonial">Antonio Mocelim</div>
             <div class="txt-14 testimonial">M3Corp</div>
           </div>
           <div class="slide-testimonial w-slide">
             <div class="txt-20">“Satisfação de ponta a ponta com aumento das nossas oportunidades.Tanto a plataforma de automação de marketing quanto a Equipe da LAHAR superou as nossas expectativas. O trabalho de consultoria orientado a resultados e personalizado para cada perfil de cliente torna cada trabalho único e muito produtivo, identificando oportunidades em conjunto e realmente fazendo a várias mãos. Com isso estamos trabalhando cada vez mais em sinergia com a LAHAR e consequentemente na construção do relacionamento com nossos clientes levando pra eles soluções que integram e complementam as suas necessidades.”</div>
-            <div class="spacer _50"></div><img src="images/fotoThiago.png" srcset="images/fotoThiago-p-500.png 500w, images/fotoThiago.png 654w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoThiago.png" srcset="assets/images/fotoThiago-p-500.png 500w, assets/images/fotoThiago.png 654w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
             <div class="title-testimonial">Thiago Andrade</div>
             <div class="txt-14 testimonial">PÃO Criação</div>
           </div>
           <div class="slide-testimonial w-slide">
             <div class="txt-20">“É bom poder contar com o apoio constante da LAHAR como software de marketing durante toda a execução do plano estratégico, desde o planejamento, passando pela execução até a mensuração dos resultados.”</div>
-            <div class="spacer _50"></div><img src="images/fotoRoberta.png" srcset="images/fotoRoberta-p-500.png 500w, images/fotoRoberta-p-800.png 800w, images/fotoRoberta.png 914w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoRoberta.png" srcset="assets/images/fotoRoberta-p-500.png 500w, assets/images/fotoRoberta-p-800.png 800w, assets/images/fotoRoberta.png 914w" sizes="(max-width: 479px) 100vw, 100px" class="foto-author">
             <div class="title-testimonial">Roberta Kawashima</div>
             <div class="txt-14 testimonial">Unimagem</div>
           </div>
           <div class="slide-testimonial w-slide">
             <div class="txt-20">&quot;Aqui na Vesti utilizávamos outra plataforma de automação de marketing que atendia as nossas necessidades junto a nossos clientes. Depois da contratação da LAHAR percebemos que poderíamos fazer muito mais, ou seja, ir além daquilo que estávamos praticando e oferecendo. A possibilidade de trabalhar em conjunto com a equipe da LAHAR nos proporciona a certeza de bons negócios.&quot;</div>
-            <div class="spacer _50"></div><img src="images/fotoWagner.png" class="foto-author">
+            <div class="spacer _50"></div><img src="assets/images/fotoWagner.png" class="foto-author">
             <div class="title-testimonial">Wagner de Souza</div>
             <div class="txt-14 testimonial">Vesti</div>
           </div>
@@ -941,12 +823,12 @@
       <h1 class="h1 medium inverted" data-ix="show-on-scroll">Algumas das empresas que utilizam a <span class="blue">LAHAR</span></h1>
       <div class="spacer _30"></div>
       <div class="div-empresas" style="display: flex;align-items: center;justify-content: space-between;">
-              <a href="https://www.totvs.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="images/totvs.png" width="130"></a>
-              <a href="https://targetmais.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="images/targetmais.png" width="117"></a>
-              <a href="https://www.roihero.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="images/roihero.png" width="1750"></a>
-              <a href="https://eadplataforma.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="images/eadplataforma.png" width="100" style="margin-left: -17px;"></a>
-              <a href="http://www.assobrav.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="images/assobrav.png" width="1750" style="min-width: 195px;"></a>
-              <a href="https://www.jetecommerce.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="images/jet.jpg" width="95"></a></div>
+              <a href="https://www.totvs.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/totvs.png" width="130"></a>
+              <a href="https://targetmais.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/targetmais.png" width="117"></a>
+              <a href="https://www.roihero.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/roihero.png" width="1750"></a>
+              <a href="https://eadplataforma.com/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/eadplataforma.png" width="100" style="margin-left: -17px;"></a>
+              <a href="http://www.assobrav.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/assobrav.png" width="1750" style="min-width: 195px;"></a>
+              <a href="https://www.jetecommerce.com.br/" target="_blank" class="marcas off w-inline-block" data-ix="show-on-scroll"><img src="assets/images/jet.jpg" width="95"></a></div>
     </div>
   </div>
   <div class="section-trio">
@@ -1006,7 +888,7 @@
   </div>
   <div class="section-footer home">
     <div class="container-footer w-container">
-      <div class="div-20-percent"><img src="images/lahar-logo.png" width="120" srcset="images/lahar-logo-p-500.png 500w, images/lahar-logo.png 915w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 16vw, 120px"><a href="mailto:contato@lahar.com.br" class="link-light-blue">contato@lahar.com.br</a>
+      <div class="div-20-percent"><img src="assets/images/lahar-logo.png" width="120" srcset="assets/images/lahar-logo-p-500.png 500w, assets/images/lahar-logo.png 915w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 16vw, 120px"><a href="mailto:contato@lahar.com.br" class="link-light-blue">contato@lahar.com.br</a>
         <div class="spacer"></div>
         <div class="txtblocks-blue medium _15">A LAHAR é um software de automação de marketing que ajuda na sua estratégia de nutrição de leads, inbound marketing e vendas em um sistema completo para fazer sua empresa crescer mais.</div>
       </div>
@@ -1033,26 +915,26 @@
         <div class="txtblocks-blue medium title w-hidden-main w-hidden-medium w-hidden-small">PARCERIAS E ASSOCIAÇÕES</div>
       </div>
       <div class="div-20-percent last">
-        <div class="txtblocks-blue medium title w-hidden-tiny">PARCERIAS E ASSOCIAÇÕES</div><img src="images/AMZ.png"><img src="images/asserti.png"><img src="images/ab.png"><img src="images/abcom.png"></div>
+        <div class="txtblocks-blue medium title w-hidden-tiny">PARCERIAS E ASSOCIAÇÕES</div><img src="assets/images/AMZ.png"><img src="assets/images/asserti.png"><img src="assets/images/ab.png"><img src="assets/images/abcom.png"></div>
     </div>
     <div class="div-last-footer">
       <div class="div-line"></div>
       <div class="container-assinatura w-container">
         <div class="w-row">
           <div class="w-clearfix w-col w-col-6 w-col-tiny-tiny-stack">
-            <div class="flags"><a href="#"  onclick="changeLanguage('en')" class="flag w-inline-block"><img src="images/united-states.svg"></a> <div class="divider-flags"></div><a href="#"  onclick="changeLanguage('')" class="flag w-inline-block"><img src="images/brasil.svg"></a>
-              <div class="divider-flags gray"></div><a href="#" onclick="changeLanguage('es')"  class="flag w-inline-block"><img src="images/spain.svg"></a></div>
+            <div class="flags"><a href="#"  onclick="changeLanguage('en')" class="flag w-inline-block"><img src="assets/images/united-states.svg"></a> <div class="divider-flags"></div><a href="#"  onclick="changeLanguage('')" class="flag w-inline-block"><img src="assets/images/brasil.svg"></a>
+              <div class="divider-flags gray"></div><a href="#" onclick="changeLanguage('es')"  class="flag w-inline-block"><img src="assets/images/spain.svg"></a></div>
             <div class="txtblocks-blue medium _14 middle">Copyright © 2018 - LAHAR. Todos os direitos reservados.</div>
           </div>
           <div class="w-col w-col-3 w-col-tiny-tiny-stack"><a href="politica-privacidade-uso.html" class="txtblocks-blue medium links center">Política de Privacidade</a></div>
-          <div class="column-social w-col w-col-3 w-col-tiny-tiny-stack"><a href="https://www.facebook.com/lahardigital" target="_blank" class="link-social fb w-inline-block"><img src="images/004-facebook.svg" height="16"></a><a href="https://twitter.com/lahardigital" target="_blank" class="link-social w-inline-block"><img src="images/001-twitter.svg" height="16"></a><a href="https://plus.google.com/103582358471907428944" target="_blank" class="link-social g w-inline-block"><img src="images/005-google-plus.svg" height="20"></a><a href="https://www.youtube.com/channel/UCEjSsivsCSpV5eXDsicJgRQ" target="_blank" class="link-social g w-inline-block"><img src="images/002-youtube.svg" height="16"></a><a href="https://www.linkedin.com/company/lahar-digital" target="_blank" class="link-social g w-inline-block"><img src="images/003-linkedin.svg" height="16"></a></div>
+          <div class="column-social w-col w-col-3 w-col-tiny-tiny-stack"><a href="https://www.facebook.com/lahardigital" target="_blank" class="link-social fb w-inline-block"><img src="assets/images/004-facebook.svg" height="16"></a><a href="https://twitter.com/lahardigital" target="_blank" class="link-social w-inline-block"><img src="assets/images/001-twitter.svg" height="16"></a><a href="https://plus.google.com/103582358471907428944" target="_blank" class="link-social g w-inline-block"><img src="assets/images/005-google-plus.svg" height="20"></a><a href="https://www.youtube.com/channel/UCEjSsivsCSpV5eXDsicJgRQ" target="_blank" class="link-social g w-inline-block"><img src="assets/images/002-youtube.svg" height="16"></a><a href="https://www.linkedin.com/company/lahar-digital" target="_blank" class="link-social g w-inline-block"><img src="assets/images/003-linkedin.svg" height="16"></a></div>
         </div>
       </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/lahar-v2.js" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
+  <script src="assets/js/lahar-v2.js" type="text/javascript"></script>
+<script src="assets/js/custom.js" type="text/javascript"></script>
 <script type="text/javascript">
   changePrice();
 </script>

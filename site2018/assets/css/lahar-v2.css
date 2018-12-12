@@ -402,6 +402,9 @@
   -ms-flex-align: center;
   align-items: center;
 }
+.section-footer .flags {
+    margin-top: 0;
+}
 
 .flags.footer {
   margin-top: 0px;
@@ -1946,6 +1949,7 @@ a.marcas.off.w-inline-block {
   justify-content: center;
   font-family: 'Hinted branding', sans-serif;
   color: #fff;
+  align-items: center;
 }
 
 .checkbox {
@@ -3220,6 +3224,11 @@ a.marcas.off.w-inline-block {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+}
+
+.button-yellow.active {
+    background-color: #273f5b;
+    color: #fff;
 }
 
 .button-yellow:hover {
@@ -4577,6 +4586,11 @@ html.w-mod-js *[data-ix="menu-hidden"] {
     padding-right: 0px;
     padding-left: 0px;
   }
+}
+
+.loading-gif {
+    position: absolute;
+    right: 30px;
 }
 
 @font-face {
