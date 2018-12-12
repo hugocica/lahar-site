@@ -88,14 +88,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="dados-empresariais-wrapper">
+                            <div id="dados-empresariais-wrapper" style="display: none;">
                                 <h2 class="h2 left tipo-dados-label" data-ix="show-on-scroll">Dados Empresariais</h2>
                                 <div class="w-row">
                                     <div class="column-zero-pad w-col w-col-6">
-                                        <input type="text" class="field w-input" maxlength="256" name="CNPJ" data-name="CNPJ" placeholder="CNPJ*" id="CNPJ" required="">
+                                        <input type="text" class="field w-input" maxlength="256" name="CNPJ" data-name="CNPJ" placeholder="CNPJ*" id="CNPJ">
                                     </div>
                                     <div class="column-zero-pad w-col w-col-6">
-                                        <input type="text" class="field w-input" maxlength="256" name="razao_social" data-name="razao_social" placeholder="Razão Social*" id="razao_social" required="">
+                                        <input type="text" class="field w-input" maxlength="256" name="razao_social" data-name="razao_social" placeholder="Razão Social*" id="razao_social">
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-center w-container" data-ix="show-on-scroll" style="display: none">
+        <div class="container-center w-container" data-ix="show-on-scroll">
             <h1 class="h1-medium" data-ix="show-on-scroll">Seu Plano</h1>
             <h2 class="h2 small _20">Escolha um de nosso planos e a forma de pagamento, sendo mensal ou anual:<br></h2>
             <div class="spacer _50"></div>
@@ -413,6 +413,47 @@
 
     <script>
         jQuery(document).ready(function($) {
+            $('#cpf').blur(function(){
+
+                var cpf = $('#cpf').val();
+
+                cpf = cpf.replace('.','');
+                cpf = cpf.replace('.','');
+                cpf = cpf.replace('-','');
+
+                var retorno = isCpf(cpf);
+
+                if (retorno) {
+                    $('#aviso_cpf_invalido').hide();
+                    $('.btn-continuar').removeClass('disabled');
+                }
+                else {
+                    $('#aviso_cpf_invalido').show();
+                    $('.btn-continuar').addClass('disabled');
+                }
+            });
+
+            $('#cnpj').blur(function(){
+
+                var cnpj = $('#cnpj').val();
+
+                cnpj = cnpj.replace('.','');
+                cnpj = cnpj.replace('.','');
+                cnpj = cnpj.replace('/','');
+                cnpj = cnpj.replace('-','');
+
+                var retorno = isCnpj(cnpj);
+
+                if (retorno) {
+                    $('#aviso_cnpj_invalido').hide();
+                    $('.btn-continuar').removeClass('disabled');
+                }
+                else {
+                    $('#aviso_cnpj_invalido').show();
+                    $('.btn-continuar').addClass('disabled');
+                }
+            });
+
             /* ADICIONA AÇÕES DO FORMULÁRIO (BOTÕES E SEÇÕES) */
             $('.links-contatos').click(function(e) {
                 $('.links-contatos').removeClass('active');
@@ -441,10 +482,28 @@
                 $(this).addClass('active');
 
                 if ( $(this).attr('data-tipo') == 'pf' ) {
-                    $('.tipo-dados-label').text('Dados Pessoais');
+
+                    $('#dados-pessoais-wrapper').show();
+                    $('#dados-empresariais-wrapper').hide();
+
+                    $('#razao_social').removeAttr('required');
+                    $('#CNPJ').removeAttr('required');
+                    $('#nome').attr('required', '');
+                    $('#CPF').attr('required', '');
+
                 } else if ( $(this).attr('data-tipo') == 'pj' ) {
-                    $('.tipo-dados-label').text('Dados Empresariais');
+
+                    $('#dados-empresariais-wrapper').show();
+                    $('#dados-pessoais-wrapper').hide();
+
+                    $('#nome').removeAttr('required');
+                    $('#CPF').removeAttr('required');
+                    $('#razao_social').attr('required', '');
+                    $('#CNPJ').attr('required', '');
+
                 }
+
+                $(window).trigger('scroll');
             });
 
 
