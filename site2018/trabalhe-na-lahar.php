@@ -106,7 +106,13 @@
             <div class="column-empty-space w-col w-col-3">
                 <div class="menu-lateral w-hidden-small w-hidden-tiny" data-ix="menu-hide">
                     <div class="selecione">Selecione  a vaga desejada:</div>
-                    <a href="#inside-sales" class="link-menu-lateral">Inside Sales</a><a href="#cs" class="link-menu-lateral">Customer Success</a><a href="#customer-support" class="link-menu-lateral">Customer Support</a><a href="#cs-estagio" class="link-menu-lateral">Estagiário Customer <br>Success</a><a href="#desenvolvedor-web-php" class="link-menu-lateral">Desenvolvedor Web PHP</a><a href="#estagio-desenvolvedor-web" class="link-menu-lateral">ESTAGIÁRIO DESENVOLVEDOR WEB</a><a href="#especialista-mkt-digital" class="link-menu-lateral">Especialista de Marketing <br>Digital</a>
+                    <a href="#inside-sales" class="link-menu-lateral">Inside Sales</a>
+                    <a href="#cs" class="link-menu-lateral">Customer Success</a>
+                    <a href="#customer-support" class="link-menu-lateral">Customer Support</a>
+                    <a href="#cs-estagio" class="link-menu-lateral">Estagiário Customer <br>Success</a>
+                    <a href="#desenvolvedor-web-php" class="link-menu-lateral">Desenvolvedor Web PHP</a>
+                    <a href="#estagio-desenvolvedor-web" class="link-menu-lateral">ESTAGIÁRIO DESENVOLVEDOR WEB</a>
+                    <a href="#especialista-mkt-digital" class="link-menu-lateral">Especialista de Marketing <br>Digital</a>
                 </div>
             </div>
             <div class="w-col w-col-9">
@@ -173,7 +179,7 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Ser sonhador e em busca de objetivos.<br></div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Inside Sales" data-ix="show-on-scroll">Cadastrar currículo</a>
                 </div>
                 <div id="cs" class="containers-funcionalidades vagas w-container">
                     <h1 class="h1-31">Customer Success</h1>
@@ -206,7 +212,7 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Inglês intermediário ou avançado.</div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Customer Success" data-ix="show-on-scroll">Cadastrar currículo</a>
                 </div>
                 <div id="customer-support" class="containers-funcionalidades vagas w-container">
                     <h1 class="h1-31">Customer Support</h1>
@@ -239,7 +245,7 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Ser didático para orientar os clientes em suas estratégias.<br></div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Customer Support" data-ix="show-on-scroll">Cadastrar currículo</a>
                 </div>
                 <div id="cs-estagio" class="containers-funcionalidades vagas w-container">
                     <h1 class="h1-31">Estagiário Customer Success</h1>
@@ -272,7 +278,7 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Inglês intermediário ou avançado.</div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Estagiário Customer Success" data-ix="show-on-scroll">Cadastrar currículo</a>
                 </div>
                 <div id="desenvolvedor-web-php" class="containers-funcionalidades vagas w-container">
                     <h1 class="h1-31">Desenvolvedor Web PHP</h1>
@@ -299,7 +305,7 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Amazon AWS.<br></div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Desenvolvedor Web PHP" data-ix="show-on-scroll">Cadastrar currículo</a>
                 </div>
                 <div id="estagio-desenvolvedor-web" class="containers-funcionalidades vagas w-container">
                     <h1 class="h1-31">Estagiário Desenvolvedor Web</h1>
@@ -326,7 +332,7 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Amazon AWS.<br></div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Estagiário Desenvolvedor Web" data-ix="show-on-scroll">Cadastrar currículo</a>
                 </div>
                 <div id="especialista-mkt-digital" class="containers-funcionalidades vagas w-container">
                     <h1 class="h1-31">Especialista de Marketing Digital</h1>
@@ -368,19 +374,32 @@
                         <div class="txtblocks-blue medium _15 line-padding light">Conhecimento em técnicas de Growth Hacking.<br></div>
                     </div>
                     <div class="spacer _50"></div>
-                    <a href="#cadastro-curriculo" class="button-yellow left w-button" data-ix="show-on-scroll">Cadastrar currículo</a>
+                    <a href="#cadastro-curriculo" class="button-yellow left w-button change-vaga" data-vaga="Especialista de Marketing Digital" data-ix="show-on-scroll">Cadastrar currículo</a>
                     <div class="spacer _50 w-hidden-tiny"></div>
                 </div>
                 <div id="cadastro-curriculo" class="containers-funcionalidades w-container">
-                    <h4 class="h4">Cadastre seu currículo para a vaga de [%PEGAR NOME DA VAGA%]:</h4>
+                    <h4 class="h4 cv-form-label">Cadastre seu currículo:</h4>
                     <div class="spacer"></div>
                     <div class="w-form">
-                        <form id="email-form" name="email-form" data-name="Email Form" class="form-4" data-ix="show-on-scroll">
-                            <div class="spacer"></div><input type="text" class="field no-shadow w-input" maxlength="256" name="experimente-nome-2" data-name="Experimente Nome 2" placeholder="Seu nome*" id="experimente-nome-2" required=""><input type="email" class="field no-shadow w-input" maxlength="256" name="experimente-email-2" data-name="Experimente Email 2" placeholder="Seu endereço de e-mail*" id="experimente-email-2" required=""><input type="text" class="field _45 no-shadow w-input" maxlength="256" name="Telefone-2" data-name="Telefone 2" placeholder="Telefone*" id="Telefone-2" required=""><input type="text" class="field _45 no-shadow w-input" maxlength="256" name="Cidade-UF-2" data-name="Cidade UF 2" placeholder="Cidade/UF*" id="Cidade-UF-2" required=""><select id="Pretensao-Salarial-2" name="Pretensao-Salarial-2" data-name="Pretensao Salarial 2" required="" class="select _50 no-shadow w-select"><option value="">Pretensão Salarial</option></select><select id="Como-nos-conheceu-2" name="Como-nos-conheceu-2" data-name="Como Nos Conheceu 2" required="" class="select _50 no-shadow w-select"><option value="">Como nos conheceu?</option></select><input type="text" class="field no-shadow w-input" maxlength="256" name="Por-que-deseja-trabalhar-na-LAHAR-2" data-name="Por Que Deseja Trabalhar Na LAHAR 2" placeholder="Por que deseja trabalhar na LAHAR?*" id="Por-que-deseja-trabalhar-na-LAHAR-2" required=""><input type="text" class="field no-shadow w-input" maxlength="256" name="Perfil-do-Linkedin-2" data-name="Perfil Do Linkedin 2" placeholder="Perfil do Linkedin" id="Perfil-do-Linkedin-2">
+                        <form id="cv_form" name="email-form" data-name="Email Form" class="form-4" data-ix="show-on-scroll">
+                            <div class="spacer"></div>
+                            <input type="text" class="field no-shadow w-input" maxlength="256" name="nome" data-name="Experimente Nome 2" placeholder="Seu nome*" id="vaga_nome" required="">
+                            <input type="email" class="field no-shadow w-input" maxlength="256" name="email" data-name="Experimente Email 2" placeholder="Seu endereço de e-mail*" id="vaga_email" required="">
+                            <input type="text" class="field _45 no-shadow w-input" maxlength="256" name="telefone" data-name="Telefone 2" placeholder="Telefone*" id="vaga_telefone" required="">
+                            <input type="text" class="field _45 no-shadow w-input" maxlength="256" name="cidade" data-name="Cidade UF 2" placeholder="Cidade/UF*" id="vaga_cidade" required="">
+                            <select id="vaga_pretensao_salarial" name="pretensao" data-name="Pretensao Salarial 2" required="" class="select _50 no-shadow w-select">
+                                <option value="">Pretensão Salarial</option>
+                            </select>
+                            <select id="vaga_como_conheceu" name="como_chegou" data-name="Como Nos Conheceu 2" required="" class="select _50 no-shadow w-select">
+                                <option value="">Como nos conheceu?</option>
+                            </select>
+                            <input type="hidden" name="vaga" value="" id="form_vaga">
+                            <input type="text" class="field no-shadow w-input" maxlength="256" name="pq_lahar" data-name="Por Que Deseja Trabalhar Na LAHAR 2" placeholder="Por que deseja trabalhar na LAHAR?*" id="vaga_pq_lahar" required="">
+                            <input type="text" class="field no-shadow w-input" maxlength="256" name="perfil_linkedin" data-name="Perfil Do Linkedin 2" placeholder="Perfil do Linkedin" id="vaga_linkedin">
                             <div class="field no-shadow block">
-                                <div class="w-embed">Arquivo do currículo: <input type="file" name="datafile" size="40"></div>
+                                <div class="w-embed">Arquivo do currículo: <input type="file" name="datafile" id="arquivo_cv" size="40"></div>
                             </div>
-                            <a href="#" class="button-yellow w-button">ENVIAR INFORMAÇÕES</a>
+                            <a href="#" class="button-yellow w-button" id="envia-cv">ENVIAR INFORMAÇÕES</a>
                             <div class="spacer"></div>
                         </form>
                         <div class="w-form-done">
@@ -398,6 +417,43 @@
     </div>
 
     <?php include_once './includes/footer.php'; ?>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.change-vaga').click(function() {
+                $('#form_vaga').val( $(this).attr('data-vaga') );
+
+                if ( $(this).attr('data-vaga') !== '' ) {
+                    $('.cv-form-label').val( 'Cadastre seu currículo para a vaga de ' + $(this).attr('data-vaga') + ':' );
+                } else {
+                    $('.cv-form-label').val( 'Cadastre seu currículo:' );
+                }
+            });
+
+            $('#envia-cv').click(function(e) {
+                var dadosForm = new FormData( $('#cv_form').get(0) );
+
+                $.ajax({
+                    url: '<?php echo base_url; ?>enviar_curriculo',
+                    data: dadosForm,
+                    dataType: 'json',
+                    processData: false,
+                    contentType: false,
+                    type: 'POST',
+                    beforeSend: function() {
+                        $('#envia-cv').hide();
+                    },
+                    success: function( data ) {
+                        if ( data.status == 'ok' ) {
+
+                        } else { // rolou algum erro
+
+                        }
+                    }
+                })
+            });
+        });
+    </script>
 
 </body>
 </html>
