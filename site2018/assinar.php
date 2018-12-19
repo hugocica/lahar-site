@@ -34,25 +34,25 @@
             <div class="div-passos w-clearfix" data-ix="show-on-scroll">
                 <div class="steps w-clearfix">
                     <div class="div-circle y"></div>
-                    <a href="#" class="step active">1</a>
+                    <a href="#" class="step passo-1 active">1</a>
                     <div class="div-circle y"></div>
                     <div class="txtblock _15">SEUS DADOS</div>
                 </div>
                 <div class="steps w-clearfix">
                     <div class="div-circle w"></div>
-                    <a href="#" class="step">2</a>
+                    <a href="#" class="step passo-2">2</a>
                     <div class="div-circle w"></div>
                     <div class="txtblock _15">SEU PLANO</div>
                 </div>
                 <div class="steps w-clearfix">
                     <div class="div-circle w"></div>
-                    <a href="#" class="step">3</a>
+                    <a href="#" class="step passo-3">3</a>
                     <div class="div-circle w"></div>
                     <div class="txtblock _15">PAGAMENTO</div>
                 </div>
                 <div class="steps w-clearfix">
                     <div class="div-circle w"></div>
-                    <a href="#" class="step">4</a>
+                    <a href="#" class="step passo-4">4</a>
                     <div class="div-circle w"></div>
                     <div class="txtblock _15">CONFIRMAÇÃO</div>
                 </div>
@@ -60,7 +60,7 @@
         </div>
     </div>
     <div id="formulario" class="div-padding-bottom">
-        <div class="container-center w-container">
+        <div class="container-center w-container etapa-wrapper" data-etapa="1" id="assinatura-dados">
             <div class="spacer _50 w-hidden-main w-hidden-medium w-hidden-small"></div>
             <h1 class="h1-medium" data-ix="show-on-scroll">Responsável pelo Contrato:</h1>
             <div>
@@ -104,32 +104,56 @@
                             <div class="w-row">
                                 <div class="column-zero-pad w-col w-col-6">
                                     <input type="text" class="field w-input" maxlength="256" name="CEP" data-name="CEP" placeholder="CEP*" id="CEP" required="">
-                                    <input type="text" class="field w-input" maxlength="256" name="Numero-complemento" data-name="Numero-complemento" placeholder="Número / complemento*" id="Numero-complemento" required="">
-                                    <input type="text" class="field w-input" maxlength="256" name="Cidade" data-name="Cidade" placeholder="Cidade*" id="Cidade" required="">
-                                    <input type="text" class="field w-input" maxlength="256" name="Telefone" data-name="Telefone" placeholder="Telefone*" id="Telefone" required="">
+                                    <input type="text" class="field w-input" maxlength="256" name="numero" data-name="numero" placeholder="Número*" id="numero" required="">
+                                    <input type="text" class="field w-input" maxlength="256" name="cidade" data-name="cidade" placeholder="Cidade*" id="cidade" required="">
+                                    <input type="text" class="field w-input" maxlength="256" name="telefone" data-name="telefone" placeholder="Telefone*" id="telefone" required="">
                                 </div>
                                 <div class="column-zero-pad w-col w-col-6">
-                                    <input type="text" class="field w-input" maxlength="256" name="Endere-o" data-name="Endereço" placeholder="Endereço*" id="Endere-o" required="">
-                                    <input type="text" class="field w-input" maxlength="256" name="Bairro" data-name="Bairro" placeholder="Bairro*" id="Bairro" required="">
-                                    <select id="Estado" name="Estado" data-name="Estado" required="" class="select w-select">
-                                        <option value="">Estado*</option>
-                                        <option value="First">First Choice</option>
-                                        <option value="Second">Second Choice</option>
-                                        <option value="Third">Third Choice</option>
+                                    <input type="text" class="field w-input" maxlength="256" name="endereco" data-name="Endereço" placeholder="Endereço*" id="endereco" required="">
+                                    <input type="text" class="field w-input" maxlength="256" name="bairro" data-name="bairro" placeholder="bairro*" id="bairro" required="">
+                                    <select id="estado" name="estado" data-name="estado" required="" class="select w-select">
+                                        <option value="">Selecione um estado</option>
+                                        <option value="AC">Acre</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="TO">Tocantins</option>
                                     </select>
-                                    <input type="text" class="field w-input" maxlength="256" name="Contato-financeiro" data-name="Contato-financeiro" placeholder="Contato Financeiro*" id="Contato-financeiro-2" required="">
+                                    <input type="text" class="field w-input" maxlength="256" name="email_financeiro" data-name="email_financeiro" placeholder="E-mail Financeiro*" id="email_financeiro" required="">
                                 </div>
                             </div>
                             <div class="spacer"></div>
                             <h2 class="h2 left" data-ix="show-on-scroll">Dados conta</h2>
                             <div class="w-row">
                                 <div class="column-zero-pad w-col w-col-6">
-                                    <input type="email" class="field w-input" maxlength="256" name="E-mail" data-name="E-mail" placeholder="E-mail*" id="E-mail" required="">
-                                    <input type="text" class="field w-input" maxlength="256" name="Website" data-name="Website" placeholder="Website*" id="Website" required="">
+                                    <input type="email" class="field w-input" maxlength="256" name="email" data-name="email" placeholder="E-mail*" id="email" required="">
+                                    <input type="text" class="field w-input" maxlength="256" name="website" data-name="website" placeholder="Website*" id="website" required="">
                                 </div>
                                 <div class="column-zero-pad w-col w-col-6">
-                                    <input type="text" class="field w-input" maxlength="256" name="Nome-empresa" data-name="Nome-empresa" placeholder="Nome empresa*" id="Nome-empresa" required="">
-                                    <select id="Objetivo" name="Objetivo" data-name="Objetivo" required="" class="select w-select">
+                                    <input type="text" class="field w-input" maxlength="256" name="nome_empresa" data-name="nome_empresa" placeholder="Nome empresa*" id="nome_empresa" required="">
+                                    <select id="objetivo" name="objetivo" data-name="objetivo" required="" class="select w-select">
                                         <option value="">Qual o seu objetivo com a LAHAR?*</option>
                                         <option value="Possuo um negócio e desejo ter resultados com a internet">Possuo um negócio e desejo ter resultados com a internet</option>
                                         <option value="Já utilizei/utilizo outra ferramenta e desejo saber mais sobre a LAHAR">Já utilizei/utilizo outra ferramenta e desejo saber mais sobre a LAHAR</option>
@@ -139,7 +163,7 @@
                                 </div>
                             </div>
                             <div class="spacer"></div>
-                            <a href="#" class="button-yellow w-button">CONTINUAR</a>
+                            <a href="#" class="button-yellow w-button proxima-etapa">CONTINUAR</a>
                             <div class="spacer"></div>
                         </form>
                         <div class="w-form-done">
@@ -152,7 +176,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-center w-container" data-ix="show-on-scroll">
+        <div class="container-center w-container etapa-wrapper" data-etapa="2" id="assinatura-plano" data-ix="show-on-scroll" style="display: none;">
             <h1 class="h1-medium" data-ix="show-on-scroll">Seu Plano</h1>
             <h2 class="h2 small _20">Escolha um de nosso planos e a forma de pagamento, sendo mensal ou anual:<br></h2>
             <div class="spacer _50"></div>
@@ -192,7 +216,7 @@
                     <div class="div-content-planos" data-plano="basic">
                         <div class="parte-cima">
                             <h2 class="h2 small blue bold">BASIC</h2>
-                            <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-basic" class="_58">229</span><span>/mês</span></div>
+                            <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-basic" class="_58 plan-price">229</span><span>/mês</span></div>
                             <div class="txtblock-gray center"><span class="bolder">Cobrado anualmente<br></span>equivalente a R$<span id="equivalentPrice-month-basic">3.490,00</span>/ano</div>
                             <div class="spacer _30"></div>
                             <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -210,7 +234,7 @@
                         <div class="parte-cima">
                             <div class="featured">MAIS CONTRATADO</div>
                             <h2 class="h2 small blue bold">Professional</h2>
-                            <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-professional" class="_58">349</span><span>/mês</span></div>
+                            <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-professional" class="_58 plan-price">349</span><span>/mês</span></div>
                             <div class="txtblock-gray center"><span class="bolder">Cobrado anualmente<br></span>equivalente a R$<span id="equivalentPrice-month-professional">3.490,00</span>/ano</div>
                             <div class="spacer _30"></div>
                             <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -236,7 +260,7 @@
                     <div class="div-content-planos" data-plano="enterprise">
                         <div class="parte-cima">
                             <h2 class="h2 small blue bold">enterprise</h2>
-                            <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-enterprise" class="_58">549</span><span>/mês</span></div>
+                            <div class="txtblock-20"><span class="rs">R$</span><span id="planPrice-enterprise" class="_58 plan-price">549</span><span>/mês</span></div>
                             <div class="txtblock-gray center"><span class="bolder">Cobrado anualmente<br></span>equivalente a R$<span id="equivalentPrice-month-enterprise">3.490,00/ano</span></div>
                             <div class="spacer _30"></div>
                             <div class="div-line-planos w-clearfix"><img src="assets/images/checked.svg" width="15" class="check-green verde">
@@ -277,15 +301,23 @@
                     <form id="email-form" name="email-form" data-name="Email Form">
                         <h2 class="h2 left" data-ix="show-on-scroll">Cupom de desconto</h2>
                         <div class="w-row">
-                            <div class="column-zero-pad w-col w-col-6"><input type="text" class="field w-input" maxlength="256" name="C-digo-do-cupom" data-name="Código do cupom" placeholder="Código do cupom*" id="C-digo-do-cupom"></div>
+                            <div class="column-zero-pad w-col w-col-6">
+                                <input type="text" class="field w-input" maxlength="256" name="codigo_cupom" data-name="Código do cupom" placeholder="Código do cupom*" id="codigo_cupom">
+                                <span class="cupom-error-message" style="display: hidden">Cupom de desconto inválido</span>
+                            </div>
                             <div class="column-zero-pad w-clearfix w-col w-col-6">
-                                <a href="#" class="links-contatos nopad" data-ix="show-on-scroll">VALIDAR CUPOM</a>
+                                <a href="#" class="links-contatos nopad" id="validar-cupom" data-ix="show-on-scroll">VALIDAR CUPOM</a>
                             </div>
                         </div>
                         <div class="spacer"></div>
                         <h2 class="h2 left" data-ix="show-on-scroll">Implementação orientada do software*</h2>
                         <div class="w-row">
-                            <div class="column-zero-pad w-col w-col-6"><select id="Objetivo-3" name="Objetivo-3" data-name="Objetivo 3" required="" class="select w-select"><option value="Implementação Gratuita em 7 dias - R$ 0,00">Implementação Gratuita em 7 dias - R$ 0,00</option><option value="Implementação Rápida em 30 dias - 2x R$ 350,00">Implementação Rápida em 30 dias - 2x R$ 350,00</option><option value="Implementação Padrão em 90 dias - 3x R$ 600,00">Implementação Padrão em 90 dias - 3x R$ 600,00</option></select>
+                            <div class="column-zero-pad w-col w-col-6">
+                                <select id="implementacao" name="implementacao" data-name="implementacao" required="" class="select w-select">
+                                    <option value="Implementação Gratuita em 7 dias - R$ 0,00">Implementação Gratuita em 7 dias - R$ 0,00</option>
+                                    <option value="Implementação Rápida em 30 dias - 2x R$ 350,00">Implementação Rápida em 30 dias - 2x R$ 350,00</option>
+                                    <option value="Implementação Padrão em 90 dias - 3x R$ 600,00">Implementação Padrão em 90 dias - 3x R$ 600,00</option>
+                                </select>
                                 <div class="txt-14-white-small" data-ix="show-on-scroll">Deseja conhecer melhor nossos planos de implementação? <a href="#" class="link-white">Quero saber mais.</a><br></div>
                             </div>
                             <div class="column-align-left w-col w-col-6">
@@ -295,20 +327,38 @@
                         <div class="spacer"></div>
                         <h2 class="h2 left" data-ix="show-on-scroll">Contrato</h2>
                         <div class="w-row">
-                            <div class="column-zero-pad w-col w-col-6"><input type="email" class="field w-input" maxlength="256" name="E-mail-2" data-name="E Mail 2" placeholder="E-mail*" id="E-mail-2" required=""></div>
+                            <div class="column-zero-pad w-col w-col-6">
+                                <input type="email" class="field w-input" maxlength="256" name="email_contrato" data-name="E Mail 2" placeholder="E-mail*" id="email_contrato" required="">
+                            </div>
                             <div class="column-align-left w-col w-col-6">
                                 <div class="txt-14-white-small" data-ix="show-on-scroll">Neste e-mail, você receberá os dados deste formulário e a cópia do contrato.<br></div>
                             </div>
                         </div>
-                        <div class="checkbox-field w-checkbox"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="checkbox w-checkbox-input"><label for="checkbox" class="w-form-label">Declaro que li e aceito os <a href="<?php echo base_url; ?>contrato-de-prestacao-de-servicos" class="link-white" style="margin: 0 5px;">termos de uso</a> deste contrato.</label></div>
+                        <div class="spacer"></div>
+                        <h2 class="h2 left" data-ix="show-on-scroll">Meio de Pagamento</h2>
+                        <div class="w-row">
+                            <div class="column-zero-pad w-col w-col-6">
+                                <select id="metodo_pagamento" name="metodo_pagamento" data-name="metodo_pagamento" required="" class="select w-select">
+                                    <option value="credit_card">Cartão de Crédito</option>
+                                    <option value="boleto">Boleto</option>
+                                </select>
+                            </div>
+                            <div class="column-align-left w-col w-col-6">
+                                <div class="txt-14-white-small" data-ix="show-on-scroll" style="display: none">
+                                    <div class="cartao-info">Será cobrado o valor referente a 6 meses no cartão, dividido em 6x.<br></div>
+                                    <div class="boleto-info" style="display:none;">Poderá ser pago em 1 ou 2 boletos, com o valor referente a 6 meses de contrato.<br></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox-field w-checkbox"><input type="checkbox" id="contrato" name="contrato" data-name="Checkbox" class="checkbox w-checkbox-input"><label for="checkbox" class="w-form-label">Declaro que li e aceito os <a href="<?php echo base_url; ?>contrato-de-prestacao-de-servicos" class="link-white" style="margin: 0 5px;">termos de uso</a> deste contrato.</label></div>
                         <div class="spacer"></div>
                         <div class="w-row">
                             <div class="w-col w-col-6">
-                                <a href="#" class="buttons-outline zeropad w-button">VOLTAR</a>
+                                <a href="#" class="buttons-outline zeropad w-button" id="voltar-etapa">VOLTAR</a>
                             </div>
                             <div class="w-col w-col-6">
                                 <div class="spacer w-hidden-main w-hidden-medium w-hidden-small"></div>
-                                <a href="#" class="button-yellow full w-button">SALVAR E EFETUAR O PAGAMENTO</a>
+                                <a href="#" class="button-yellow full w-button" id="btn-salvar-efetuar-pagamento">SALVAR E EFETUAR O PAGAMENTO</a>
                             </div>
                         </div>
                         <div class="spacer"></div>
@@ -320,6 +370,24 @@
                         <div>Oops! Something went wrong while submitting the form.</div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container-center w-container etapa-wrapper" data-etapa="3" style="display: none;">
+            <svg width="30px"  height="30px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-dual-ring" style="background: none;">
+                <circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-dasharray="{{config.dasharray}}" fill="none" stroke-linecap="round" r="40" stroke-width="4" stroke="#00aeef" stroke-dasharray="62.83185307179586 62.83185307179586" transform="rotate(138 50 50)">
+                    <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform>
+                </circle>
+            </svg>
+        </div>
+        <div class="container-center w-container etapa-wrapper" data-etapa="4" style="display: none">
+            <div class="w-col w-col-12 center">
+                <h2 class="sucesso"><i class="fa fa-check-square-o" aria-hidden="true"></i> Pagamento realizado com sucesso!</h2>
+                <p>Registramos o seu pagamento, agora você já pode acessar a nossa ferramenta e começar a gerar resultado para a sua empresa.</p>
+                <br>
+                <p><b>Você receberá um e-mail com as orientações e a senha de acesso!<b></p>
+            </div>
+            <div class="w-col w-col-12 center action" style="margin-top:30px;">
+                <a href="https://app.lahar.com.br/" class="w-button button verde big">Acessar Ferramenta <i class="fa fa-sign-in" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -405,57 +473,118 @@
             </div>
         </div>
     </div>
+    <input type="hidden" id="hash_empresa_criada" value="">
+    <input type="hidden" id="id_plano_cupom" value="null">
+    <input type="hidden" id="valor_plano_cupom" value="null">
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="assets/js/lahar-v2.js" type="text/javascript"></script>
     <script src="assets/js/custom.js" type="text/javascript"></script>
+    <script src="https://assets.pagar.me/checkout/checkout.js"></script>
+    <script src="assets/js/jquery.maskedinput.js"></script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
     <script>
         jQuery(document).ready(function($) {
-            $('#cpf').blur(function(){
+            $("#CPF").mask("999.999.999-99");
+            $("#CNPJ").mask("99.999.999/9999-99");
+            $("#CEP").mask("99999-999");
+            $('#telefone').mask("(99) 9999-9999?9").focusout(function(e) {
+                var target, phone, element;
+                target = ( e.currentTarget ) ? e.currentTarget : e.srcElement;
+                phone = target.value.replace(/\D/g, '');
+                element = $(target);
+                element.unmask();
+                if ( phone.length > 10 ) {
+                    element.mask("(99) 99999-999?9");
+                } else {
+                    element.mask("(99) 9999-9999?9");
+                }
+            });
 
-                var cpf = $('#cpf').val();
+            $('#CPF').blur(function() {
+                var cpf = $('#CPF').val();
 
-                cpf = cpf.replace('.','');
-                cpf = cpf.replace('.','');
-                cpf = cpf.replace('-','');
+                cpf = cpf.replace('.', '');
+                cpf = cpf.replace('.', '');
+                cpf = cpf.replace('-', '');
 
                 var retorno = isCpf(cpf);
 
-                if (retorno) {
+                if ( retorno ) {
                     $('#aviso_cpf_invalido').hide();
-                    $('.btn-continuar').removeClass('disabled');
-                }
-                else {
+                    $('.proxima-etapa').removeClass('disabled');
+                } else {
                     $('#aviso_cpf_invalido').show();
-                    $('.btn-continuar').addClass('disabled');
+                    $('.proxima-etapa').addClass('disabled').attr('disable', 'disabled');
                 }
             });
 
-            $('#cnpj').blur(function(){
+            $('#CNPJ').blur(function() {
+                var cnpj = $('#CNPJ').val();
 
-                var cnpj = $('#cnpj').val();
-
-                cnpj = cnpj.replace('.','');
-                cnpj = cnpj.replace('.','');
-                cnpj = cnpj.replace('/','');
-                cnpj = cnpj.replace('-','');
+                cnpj = cnpj.replace('.', '');
+                cnpj = cnpj.replace('.', '');
+                cnpj = cnpj.replace('/', '');
+                cnpj = cnpj.replace('-', '');
 
                 var retorno = isCnpj(cnpj);
 
-                if (retorno) {
+                if ( retorno ) {
                     $('#aviso_cnpj_invalido').hide();
-                    $('.btn-continuar').removeClass('disabled');
-                }
-                else {
+                    $('.proxima-etapa').removeClass('disabled');
+                } else {
                     $('#aviso_cnpj_invalido').show();
-                    $('.btn-continuar').addClass('disabled');
+                    $('.proxima-etapa').addClass('disabled').attr('disable', 'disabled');
                 }
             });
 
+            // Registra o evento blur do campo "cep", ou seja, quando o usuário sair do campo "cep" faremos a consulta dos dados
+        	$("#CEP").blur(function() {
+                // Para fazer a consulta, removemos tudo o que não é número do valor informado pelo usuário
+                var cep = this.value.replace(/[^0-9]/, '');
+
+                // Validação do CEP; caso o CEP não possua 8 números, então cancela a consulta
+                if ( cep.length != 8 ) {
+                    return false;
+                }
+
+                var url = "https://api.pagar.me/1/zipcodes/" + cep;
+
+                // Aqui fazemos uma requisição ajax ao webservice, tratando o retorno com try/catch para que caso ocorra algum
+                // erro (o cep pode não existir, por exemplo) o usuário não seja afetado, assim ele pode continuar preenchendo os campos
+                $.ajax({
+                    dataType: "json",
+                    url: url,
+                    beforeSend: function() {
+                        $("#endereco").addClass('disabled').attr('disabled', 'disabled');
+                        $("#bairro").addClass('disabled').attr('disabled', 'disabled');
+                        $("#cidade").addClass('disabled').attr('disabled', 'disabled');
+                        $("#estado").addClass('disabled').attr('disabled', 'disabled');
+                    },
+                    success: function(dadosRetorno) {
+                        $("#aviso_cep_invalido").hide();
+                        $("#endereco").val(dadosRetorno.street);
+                        $("#bairro").val(dadosRetorno.neighborhood);
+                        $("#cidade").val(dadosRetorno.city);
+                        $("#estado").val(dadosRetorno.state);
+                        $('#numero').focus();
+                    },
+                    error: function() {
+                        $("#aviso_cep_invalido").show();
+                        $("#CEP").val('');
+                    },
+                    complete: function() {
+                        $("#endereco").removeClass('disabled').removeAttr('disabled');
+                        $("#bairro").removeClass('disabled').removeAttr('disabled');
+                        $("#cidade").removeClass('disabled').removeAttr('disabled');
+                        $("#estado").removeClass('disabled').removeAttr('disabled');
+                    }
+                });
+        	});
+
             /* ADICIONA AÇÕES DO FORMULÁRIO (BOTÕES E SEÇÕES) */
-            $('.links-contatos').click(function(e) {
+            $('.links-contatos:not(#validar-cupom)').click(function(e) {
                 $('.links-contatos').removeClass('active');
                 $(this).addClass('active');
 
@@ -527,6 +656,347 @@
                     $('#radio-mensal').closest('.radio-button-field').click();
                 }
             }
+
+            /* VALIDA O CUPOM DE DESCONTO */
+            $('#validar-cupom').click(function(event) {
+
+                var cupom = $("#codigo_cupom").val();
+                var idPlano = $('.div-content-planos.destaque').attr('data-plano-id');
+                var idPlanoConfig = $('.div-content-planos.destaque').attr('data-plano-config-id');
+
+                $(".cupom-error-message").hide();
+
+                // Verifica se algum dos planso foi escolhido
+                if ( idPlano ) {
+                    if ( cupom ) {
+                        // $.post('https://app.lahar.com.br/verificar-cupom', {planos_id: idPlano, planos_config: idPlanoConfig, cupom: cupom}, function(retorno) {
+                        $.post('http://localhost/codebase-v2.1/verificar-cupom', {planos_id: idPlano, planos_config: idPlanoConfig, cupom: cupom}, function(retorno) {
+                            if ( retorno == 'erro' ) {
+                                $("#aviso_cupom_sucesso").hide();
+                                $("#aviso_cupom_erro").show();
+                                $("#id_plano_cupom").val( null );
+                                $("#valor_plano_cupom").val( null );
+                                $('.cupom-error-message').text('Cupom inválido').show()
+                            } else {
+                                $("#aviso_cupom_erro").hide();
+                                $("#aviso_cupom_sucesso").show();
+                                $("#id_plano_cupom").val( retorno.split("|", 1) );
+                                $("#valor_plano_cupom").val( retorno.split("|").pop() + "00" );
+                            }
+                        });
+                    } else {
+                        $('.cupom-error-message').text('Cupom em branco. Por favor, preencher').show()
+                    }
+                } else {
+                    $('.cupom-error-message').text('Escolha um plano para continuar essa operação').show()
+                }
+            });
+
+            // @author: Hugo Cicarelli
+        	// lentidão no carregamento do jQuery resultava em erro de declaração da Função
+        	// setInterval executa a cada 50ms, certificando que a função será declarada
+        	var gotoDeclaration = setInterval(function() {
+        		$.fn.goTo = function() {
+        			$('html, body').animate({
+        				scrollTop: $(this).offset().top + 'px'
+        			}, 'fast');
+        			return this; // for chaining...
+        		}
+
+        		if ( typeof $('body').goTo() === 'object' ) {
+        			clearInterval(gotoDeclaration);
+        		}
+        	}, 50);
+
+            $('.proxima-etapa').click(function() {
+                $(this).closest('.etapa-wrapper').fadeOut('400', function() {
+                    $(this).next().fadeIn('400');
+                    $(window).trigger('scroll');
+
+                    var etapaNumero = $(this).next().attr('data-etapa');
+                    $('.step').removeClass('active');
+                    $('.steps .div-circle.y').toggleClass('y w')
+                    $('.passo-'+etapaNumero).addClass('active').closest('.steps').find('.div-circle').toggleClass('w y');
+
+                    $('.steps').goTo();
+                });
+            });
+
+            $('#voltar-etapa').click(function() {
+                $(this).closest('.etapa-wrapper').fadeOut('400', function() {
+                    $(this).prev().fadeIn('400');
+
+                    var etapaNumero = $(this).prev().attr('data-etapa');
+                    $('.step').removeClass('active');
+                    $('.steps .div-circle.y').toggleClass('y w')
+                    $('.passo-'+etapaNumero).addClass('active').closest('.steps').find('.div-circle').toggleClass('w y');
+
+                    $('.steps').goTo();
+                })
+            });
+
+            /* SALVAR E IR PARA O PAGAMENTO */
+            $('#btn-salvar-efetuar-pagamento').click(function(event) {
+
+                var cpf                     = $("#CPF").val(),
+                    nome                    = $("#nome").val(),
+                    cnpj                    = $("#CNPJ").val(),
+                    razao                   = $("#razao_social").val(),
+                    endereco                = $("#endereco").val(),
+                    numero                  = $("#numero").val(),
+                    bairro                  = $("#bairro").val(),
+                    cep                     = $("#CEP").val(),
+                    cidade                  = $("#cidade").val(),
+                    uf                      = $("#estado").val(),
+                    tel                     = $("#telefone").val(),
+                    contato_financeiro      = $("#email_financeiro").val(),
+                    email                   = $("#email").val(),
+                    empresa                 = $("#nome_empresa").val(),
+                    site                    = $("#website").val(),
+                    objetivo                = $("#objetivo").val(),
+                    codigo_cupom            = $("#codigo_cupom").val(),
+                    implementacao           = $("#implementacao").val(),
+                    email_contrato          = $("#email_contrato").val(),
+                    tipoplano               = ( $('#radio-mensal').is(':checked') ) ? 'planoMensal' : 'planoAnual',
+                    plano                   = document.getElementsByName('planoAssinatura'),
+                    valor_plano_assinatura  = $('.div-content-planos.destaque ._58').text() + '00',
+                    contrato                = ( $('#contrato').is(':checked') ) ? true : false,
+                    tipoplano_assinatura,
+                    plano_assinatura,
+                    hash,
+                    checkoutBloqueado       = false;
+
+                // Remove máscara do cpf/cnpj para não gerar erro quando for mandar os dados para o Pagar.me
+                cpf = (cpf.replace('.', '')).replace('-', '');
+                cnpj = ((cnpj.replace('/', '')).replace('-', '')).replace('.', '');
+
+                // Separa o DDD e o Telefone para enviar ao Pagar.me
+                tel = tel.replace("(", "");
+                tel = tel.replace(")", "");
+                tel = tel.replace("-", "");
+                var ddd = tel.substr(0, 2);
+                var telfinal = tel.substr(2, 11);
+
+                if ( codigo_cupom ) {
+
+                    if ( $("#id_plano_cupom").val() !== '' ) {
+                        plano_assinatura 	   = $("#id_plano_cupom").val();
+                        valor_plano_assinatura = $("#valor_plano_cupom").val();
+                    }
+
+                }
+
+                if ( !validateEmail(email_contrato) ) {
+
+                    $("#aviso_email_contrato_invalido").show();
+                    return false;
+
+                } else {
+                    $("#aviso_email_contrato_invalido").hide();
+                }
+
+                // Testa se estão vindo dados gerais da primeira etapa
+                if ( endereco && numero && bairro && cep && cidade && uf && tel && contato_financeiro && email && empresa && site && objetivo ) {
+
+                    // Se for pessoa física verifica se estão vindo os campos
+                    if ( cpf && nome && implementacao && email_contrato && contrato ) {
+
+                        $.ajax({
+                            // url: 'https://app.lahar.com.br/cadastro',
+                            url: 'http://localhost/codebase-v2.1/cadastro',
+                            method: 'POST',
+                            data: {
+                                cpf: cpf,
+                                nome: nome,
+                                endereco: endereco,
+                                numero: numero,
+                                bairro: bairro,
+                                cep: cep,
+                                cidade: cidade,
+                                uf: uf,
+                                telefone: tel,
+                                contato_financeiro: contato_financeiro,
+                                email: email,
+                                nome_empresa: empresa,
+                                site_empresa: site,
+                                objetivo: objetivo,
+                                implementacao: implementacao,
+                                email_contrato: email_contrato,
+                                codigo_cupom: codigo_cupom
+                            },
+                            beforeSend: function() {
+                                $('.etapa-wrapper[data-etapa=2]').fadeOut('400', function() {
+                                    $(this).next().fadeIn('400');
+                                    $(window).trigger('scroll');
+
+                                    var etapaNumero = $(this).next().attr('data-etapa');
+                                    $('.step').removeClass('active');
+                                    $('.steps .div-circle.y').toggleClass('y w')
+                                    $('.passo-'+etapaNumero).addClass('active').closest('.steps').find('.div-circle').toggleClass('w y');
+
+                                    $('.steps').goTo();
+                                });
+                            },
+                            success: function( retorno ) {
+                                if ( retorno == 'erro_criar_empresa' ) {
+
+                                    window.location.href = 'assinar-erro-salvar';
+
+                                } else {
+
+                                    // $('#todas-etapas').goTo();
+                                    // $('#'+prevEtapa).slideUp('slow');
+                                    // $('.'+prevEtapa).addClass('etapa-ok');
+                                    // $('.'+prevEtapa).removeClass('active');
+                                    // $('.'+nextEtapa).addClass('active');
+                                    // $('#'+nextEtapa).slideDown('slow');
+
+                                    $("#hash_empresa_criada").val(retorno);
+                                    hash = retorno;
+                                }
+                            },
+                            complete: function() {
+                                $('.btn-salvar-efetuar-pagamento').removeClass('disabled').html('Salvar e efetuar o pagamento <i class="fa fa-arrow-right" aria-hidden="true"></i>');
+                            }
+                        });
+
+                        //return false;
+
+                    } else if ( cnpj && razao && implementacao && email_contrato && contrato ) { // Se for pessoa jurídica verifica se estão vindo os campos
+
+                        $.post('https://app.lahar.com.br/cadastro', { cnpj: cnpj, nome: razao, razao: razao, endereco: endereco, numero: numero, bairro: bairro, cep: cep, cidade: cidade, uf: uf, telefone: tel, contato_financeiro: contato_financeiro, email: email, nome_empresa: empresa, site_empresa: site, objetivo: objetivo, implementacao: implementacao, email_contrato: email_contrato, codigo_cupom: codigo_cupom }, function(retorno){
+
+                            if ( retorno == 'erro_criar_empresa' ) {
+
+                                window.location.href = 'assinar-erro-salvar';
+
+                            } else {
+
+                                // $('#todas-etapas').goTo();
+                                // $('#'+prevEtapa).slideUp('slow');
+                                // $('.'+prevEtapa).addClass('etapa-ok');
+                                // $('.'+prevEtapa).removeClass('active');
+                                // $('.'+nextEtapa).addClass('active');
+                                // $('#'+nextEtapa).slideDown('slow');
+
+                                $("#hash_empresa_criada").val(retorno);
+                                hash = retorno;
+                            }
+
+                        });
+
+                        //return false;
+                    }
+
+                    // INICIAR A INSTÂNCIA DO CHECKOUT
+                    // declarando um callback de sucesso
+                    // @author: Hugo Cicarelli
+                    // ek_live_WLCpXxf6y2BRUvknWtJmxgLJS96WIA
+                    // ek_test_K21dHsPdfb32E2zIV9nWN0o5qU8YZT
+                    var checkout = new PagarMeCheckout.Checkout({
+                        "encryption_key":"ek_test_K21dHsPdfb32E2zIV9nWN0o5qU8YZT",
+                        success: function(data) {
+
+                            if ( !checkoutBloqueado ) {
+                                checkoutBloqueado = true;
+
+                                //Tratar aqui as ações de callback do checkout, como exibição de mensagem ou envio de token para captura da transação
+                                $.ajax({
+                                    // url: 'https://app.lahar.com.br/assinatura',
+                                    url: 'http://localhost/codebase-v2.1/assinatura',
+                                    method: 'POST',
+                                    data: {
+                                        hash: $('#hash_empresa_criada').val(),
+                                        pagarme: data,
+                                        id_plano: $('.div-content-planos.destaque').attr('data-plano-id'),
+                                        id_plano_config: $('.div-content-planos.destaque').attr('data-plano-config-id'),
+                                        email_contrato: email_contrato,
+                                        cupom_codigo: codigo_cupom,
+                                        parcelas_boleto: ( typeof $('#parcelas-boleto').val() !== 'undefined' && $('#parcelas-boleto').val() != 0 ) ? $('#parcelas-boleto').val() : 1
+                                    },
+                                    beforeSend: function() {
+                                        // $('#todas-etapas').goTo();
+                                        // $('#mensagem_sucesso, #mensagem_erro, #pay-button').hide();
+                                        // $('#mensagem_erro').after('<div id="loading-gif"><svg width="100px"  height="100px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-dual-ring" style="background: none;"><circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-dasharray="{{config.dasharray}}" fill="none" stroke-linecap="round" r="40" stroke-width="4" stroke="#00aeef" stroke-dasharray="62.83185307179586 62.83185307179586" transform="rotate(138 50 50)"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform></circle></svg></div>');
+                                    },
+                                    success: function(retorno) {
+                                        console.log(retorno);
+                                        // if ( retorno == 'sucesso' ) {
+                                        //     $('#todas-etapas').goTo();
+                                        //     $('#etapa3').slideUp('slow');
+                                        //     $('.etapa3').addClass('etapa-ok');
+                                        //     $('.etapa3').removeClass('active');
+                                        //     $('.etapa3').removeClass('etapa-erro');
+                                        //     $('.etapa4').addClass('active');
+                                        //     $('#etapa4').slideDown('slow');
+                                        // } else {
+                                        //     $('.etapa3').addClass('etapa-erro');
+                                        //     $('#mensagem_sucesso').hide();
+                                        //     $('#mensagem_erro, #pay-button').show();
+                                        // }
+                                        checkoutBloqueado = false;
+                                    },
+                                    error: function() {
+                                        // $('.etapa3').addClass('etapa-erro');
+                                        // $('#mensagem_sucesso').hide();
+                                        // $('#mensagem_erro, #pay-button').show();
+                                    },
+                                    complete: function() {
+                                        // $('#loading-gif').remove();
+                                    }
+                                });
+                            }
+                        },
+                        error: function(error) {
+                            // $('.etapa3').addClass('etapa-erro');
+                            // document.getElementById("mensagem_sucesso").style.display = "none";
+                            // document.getElementById("mensagem_erro").style.display = "block";
+
+                            // console.log('erro');
+                            // console.log(error);
+                        }
+                    });
+
+                    if ( cpf ) {
+                        var documento = cpf;
+                        var nome_entidade = nome;
+                    } else {
+                        var documento = cnpj;
+                        var nome_entidade = razao+" ("+empresa+")";
+                    }
+
+                    // DEFINIR AS OPÇÕES
+                    // e abrir o modal
+                    // É necessário passar os valores boolean em "var params" como string
+
+                    var params = {
+                        "customerData":"true",
+                        "amount": valor_plano_assinatura * 6,
+                        "createToken":"false",
+                        "paymentMethods": $('#metodo_pagamento').val(),
+                        "customerName":nome_entidade,
+                        "customerDocumentNumber":documento,
+                        "customerEmail":contato_financeiro,
+                        "customerAddressStreet":endereco,
+                        "customerAddressStreetNumber":numero,
+                        "customerAddressNeighborhood":bairro,
+                        "customerAddressCity":cidade,
+                        "customerAddress-State":uf,
+                        "customerAddressZipcode":cep,
+                        "customerPhoneDdd":ddd,
+                        "customerPhoneNumber":telfinal
+                    };
+
+                    if ( $('#metodo_pagamento').val() == 'credit_card' ) {
+                        params['defaultInstallment'] = 6;
+                    }
+
+                    checkout.open(params);
+
+                    return false;
+                }
+
+            });
         });
     </script>
 

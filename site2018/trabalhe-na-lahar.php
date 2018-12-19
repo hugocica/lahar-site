@@ -424,9 +424,9 @@
                 $('#form_vaga').val( $(this).attr('data-vaga') );
 
                 if ( $(this).attr('data-vaga') !== '' ) {
-                    $('.cv-form-label').val( 'Cadastre seu currículo para a vaga de ' + $(this).attr('data-vaga') + ':' );
+                    $('.cv-form-label').text( 'Cadastre seu currículo para a vaga de ' + $(this).attr('data-vaga') + ':' );
                 } else {
-                    $('.cv-form-label').val( 'Cadastre seu currículo:' );
+                    $('.cv-form-label').text( 'Cadastre seu currículo:' );
                 }
             });
 

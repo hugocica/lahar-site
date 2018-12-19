@@ -2,15 +2,27 @@ prices = {
 	"5" : {
 		"basic":{
 			"month":229,
-			"year":2290/12
+			"year":2290/12,
+			"id_plano_month": 61,
+			"id_plano_year": 62,
+			"id_plano_config_month": 1,
+			"id_plano_config_year": 1
 		},
 		"professional":{
 			"month":349,
-			"year":3490/12
+			"year":3490/12,
+			"id_plano_month": 63,
+			"id_plano_year": 64,
+			"id_plano_config_month": 1,
+			"id_plano_config_year": 1
 		},
 		"enterprise":{
 			"month":979,
-			"year":9790/12
+			"year":9790/12,
+			"id_plano_month": 65,
+			"id_plano_year": 66,
+			"id_plano_config_month": 1,
+			"id_plano_config_year": 1
 		},
 	},
 	"10" : {
@@ -165,7 +177,9 @@ function changePaymentPeriod(e) {
 function changePrice() {
 	for (plan of plans) {
 		document.getElementById("planPrice-"+plan).innerHTML = Math.ceil(prices[numberOfContacts][plan][paymentPeriod]);
-		document.getElementById('equivalentPrice-month-'+plan).innerHTML = prices[numberOfContacts][plan][paymentPeriod] * 12
+		document.getElementById('equivalentPrice-month-'+plan).innerHTML = prices[numberOfContacts][plan][paymentPeriod] * 12;
+		document.querySelectorAll(".div-content-planos[data-plano="+ plan +"]")[0].setAttribute("data-plano-id", prices[numberOfContacts][plan]["id_plano_"+paymentPeriod]);
+		document.querySelectorAll(".div-content-planos[data-plano="+ plan +"]")[0].setAttribute("data-plano-config-id", prices[numberOfContacts][plan]["id_plano_config_"+paymentPeriod]);
 	}
 
 }
@@ -286,4 +300,10 @@ function isCnpj(cnpj){
 	}
 
 	return true;
+}
+
+function validateEmail(email) {
+	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/igm;
+
+	return re.test(email);
 }

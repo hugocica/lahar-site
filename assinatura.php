@@ -1345,43 +1345,49 @@ $planoAssinatura = $_GET['plano'];
 	/* VALIDA O CUPOM DE DESCONTO */
 	$('.btn-validar-cupom').click(function(event){
 
-  		var cupom = document.getElementById("codigo_cupom").value;
+  		var cupom = $("#codigo_cupom").val();
   		var plano = document.getElementsByName('planoAssinatura');
 		var plano_assinatura;
 
-		for(var i = 0; i < plano.length; i++){
+		for ( var i = 0; i < plano.length; i++ ) {
 		    if(plano[i].checked){
 		        plano_assinatura = plano[i].value;
 		    }
 		}
 
 		// Verifica se algum dos planso foi escolhido
-  		if(plano_assinatura){
+  		if ( plano_assinatura ) {
 
-			if(cupom){
-				document.getElementById("aviso_plano_vazio").style.display = "none";
-				document.getElementById("aviso_cupom_vazio").style.display = "none";
+			if ( cupom ) {
+				$("#aviso_plano_vazio").hide();
+				$("#aviso_cupom_vazio").hide();
 
-			    $.post('https://app.lahar.com.br/verificar-cupom', {planos_id: plano_assinatura, cupom: cupom}, function(retorno){
-		          if(retorno == 'erro'){
-		            document.getElementById("aviso_cupom_sucesso").style.display = "none";
-		            document.getElementById("aviso_cupom_erro").style.display = "block";
-		            document.getElementById("id_plano_cupom").value = null;
-		            document.getElementById("valor_plano_cupom").value = null;
-		          }else{
-		   			document.getElementById("aviso_cupom_erro").style.display = "none";
-		   			document.getElementById("aviso_cupom_sucesso").style.display = "block";
-		   			document.getElementById("id_plano_cupom").value = retorno.split("|",1);
-		   			document.getElementById("valor_plano_cupom").value = retorno.split("|").pop()+"00";
-		          }
+			    $.post('https://app.lahar.com.br/verificar-cupom',
+				{
+					planos_id:
+					plano_assinatura,
+					cupom: cupom
+				},
+				function(retorno) {
+					if ( retorno == 'erro' ) {
+						$("#aviso_cupom_sucesso").hide();
+						$("#aviso_cupom_erro").show();
+						$("#id_plano_cupom").value = null;
+						$("#valor_plano_cupom").value = null;
+					}else{
+						$("#aviso_cupom_erro").hide();
+						$("#aviso_cupom_sucesso").show();
+						$("#id_plano_cupom").val( retorno.split("|", 1) );
+						$("#valor_plano_cupom").val( retorno.split("|").pop() + "00" );
+					}
 		        });
 
-			}else{
-				document.getElementById("aviso_plano_vazio").style.display = "none";
-				document.getElementById("aviso_cupom_vazio").style.display = "block";
+			} else {
+				$("#aviso_plano_vazio").hide();
+				$("#aviso_cupom_vazio").show();
 			}
-		}else{
-			document.getElementById("aviso_plano_vazio").style.display = "block";
+		} else {
+			$("#aviso_plano_vazio").show();
 		}
 
 	});
